@@ -6,15 +6,15 @@
 @media screen and (max-width: 480px) {
     :root {
         --gap: 16px;
-        --content-gap: 16px;
-        --radius: 12px;
-        --radius-sm: 8px;
-        --header-height: 56px;
+        --content-gap: 20px;
+        --radius: 10px;
+        --radius-sm: 6px;
+        --header-height: 52px;
         --textsize: 16px;
-        --h1size: 24px;
+        --h1size: 22px;
         --homesize: 15px;
         --entrysize: 14px;
-        --headersize: 13px;
+        --headersize: 12px;
     }
     
     /* Header */

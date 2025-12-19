@@ -4,20 +4,23 @@ aliases: /teaching
 description: "Courses and philosophy"
 ---
 
-# Teaching
-
 I care deeply about **how technical ideas land**.
 
-I’ve taught and assisted courses in:  
-- Financial Econometrics  
-- Machine Learning in Finance  
-- Decoding FinTech
+---
 
-My teaching style:  
-- start with geometry  
-- add probability  
-- introduce notation last  
-- never pretend confusion is stupidity
+### Courses
 
-Good teaching doesn’t simplify ideas.  
-It makes complexity navigable.
+- Financial Econometrics
+- Machine Learning in Finance
+- Decoding FinTech
+
+---
+
+### Approach
+
+- Start with geometry
+- Add probability
+- Introduce notation last
+- Never pretend confusion is stupidity
+
+Good teaching doesn't simplify ideas—it makes complexity navigable.

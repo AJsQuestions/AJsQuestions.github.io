@@ -2,13 +2,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-{{- /* Custom Fonts - Distinctive Typography from Fontshare */ -}}
-<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
-<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,600,700&f[]=clash-display@500,600,700&display=swap" rel="stylesheet">
-{{- /* Monospace font from Google Fonts */ -}}
+{{- /* Google Fonts - Inter for clean typography */ -}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 {{- if hugo.IsProduction | and (ne .Params.robotsNoIndex true) }}
 <meta name="robots" content="index, follow">
 {{- else }}
@@ -104,8 +101,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="{{ site.Params.assets.favicon32x32 | default "favicon-32x32.png" | absURL }}">
 <link rel="apple-touch-icon" href="{{ site.Params.assets.apple_touch_icon | default "apple-touch-icon.png" | absURL }}">
 <!-- <link rel="mask-icon" href="{{ site.Params.assets.safari_pinned_tab | default "safari-pinned-tab.svg" | absURL }}"> -->
-<meta name="theme-color" content="{{ site.Params.assets.theme_color | default "#09090b" }}">
-<meta name="msapplication-TileColor" content="{{ site.Params.assets.msapplication_TileColor | default "#09090b" }}">
+<meta name="theme-color" content="{{ site.Params.assets.theme_color | default "#0a0a0b" }}">
+<meta name="msapplication-TileColor" content="{{ site.Params.assets.msapplication_TileColor | default "#0a0a0b" }}">
 
 {{- /* RSS */}}
 {{ range .AlternativeOutputFormats -}}
@@ -127,14 +124,14 @@
     <style>
         @media (prefers-color-scheme: dark) {
             :root {
-                --theme: rgb(9, 9, 11);
-                --entry: rgb(24, 24, 27);
+                --theme: rgb(10, 10, 11);
+                --entry: rgb(20, 20, 22);
                 --primary: rgb(250, 250, 250);
                 --secondary: rgb(161, 161, 170);
-                --tertiary: rgb(39, 39, 42);
-                --content: rgb(228, 228, 231);
-                --hljs-bg: rgb(24, 24, 27);
-                --code-bg: rgb(24, 24, 27);
+                --tertiary: rgb(28, 28, 30);
+                --content: rgb(212, 212, 216);
+                --hljs-bg: rgb(20, 20, 22);
+                --code-bg: rgb(20, 20, 22);
                 --border: rgb(39, 39, 42);
                 --accent: rgb(250, 250, 250);
             }

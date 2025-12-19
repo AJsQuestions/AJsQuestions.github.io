@@ -1,12 +1,12 @@
-/* Header Navigation - Modern Glassmorphism */
+/* Header Navigation - Clean and minimal */
 .header {
     position: sticky;
     top: 0;
     z-index: 100;
     background: var(--glass-bg);
-    backdrop-filter: blur(var(--glass-blur)) saturate(180%);
-    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(180%);
-    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border-bottom: 1px solid var(--glass-border);
     transition: all var(--transition);
 }
 
@@ -34,17 +34,17 @@
 
 .logo a {
     font-family: var(--font-display);
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: -0.04em;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
     color: var(--primary);
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
 }
 
 .logo a:hover {
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .logo a img, 
@@ -52,8 +52,8 @@
     display: inline;
     vertical-align: middle;
     pointer-events: none;
-    border-radius: var(--radius-sm);
-    transition: transform var(--transition);
+    border-radius: var(--radius-xs);
+    transition: opacity var(--transition);
 }
 
 /* Theme Toggle Button */
@@ -82,14 +82,14 @@ body:not(.dark) #sun {
     display: none;
 }
 
-/* Menu - Modern pill navigation */
+/* Menu - Clean navigation */
 #menu {
     display: flex;
     list-style: none;
     word-break: keep-all;
     overflow-x: auto;
     white-space: nowrap;
-    gap: 4px;
+    gap: 2px;
     margin: 0;
     padding: 0;
 }
@@ -100,10 +100,10 @@ body:not(.dark) #sun {
 
 #menu a {
     font-family: var(--font-sans);
-    font-size: var(--headersize);
+    font-size: 13px;
     font-weight: 500;
-    padding: 10px 18px;
-    border-radius: 100px;
+    padding: 8px 14px;
+    border-radius: var(--radius-sm);
     color: var(--secondary);
     transition: all var(--transition-fast);
     position: relative;
@@ -111,14 +111,13 @@ body:not(.dark) #sun {
 
 #menu a:hover {
     color: var(--primary);
-    background: var(--tertiary);
 }
 
 #menu .active,
 #menu a.active {
-    color: var(--theme);
-    background: var(--primary);
-    font-weight: 600;
+    color: var(--primary);
+    background: var(--tertiary);
+    font-weight: 500;
 }
 
 /* Language Switch */

@@ -1,6 +1,7 @@
 /* Base HTML styling */
 html {
     scroll-behavior: smooth;
+    font-size: 16px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -13,16 +14,18 @@ html {
 body {
     font-family: var(--font-sans);
     font-weight: 400;
+    font-feature-settings: 'ss01' 1, 'cv01' 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
     background: var(--theme);
     color: var(--primary);
     transition: background-color var(--transition), color var(--transition);
     position: relative;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.011em;
 }
 
-/* Modern gradient background */
+/* Subtle gradient background */
 body::before {
     content: '';
     position: fixed;
@@ -30,6 +33,7 @@ body::before {
     background: var(--gradient-hero);
     pointer-events: none;
     z-index: -1;
+    opacity: 0.8;
 }
 
 /* Focus styles for accessibility */
@@ -57,13 +61,14 @@ img {
     max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
     padding: var(--gap);
+    padding-top: calc(var(--gap) * 2);
 }
 
 .page-header h1 {
     font-family: var(--font-display);
     font-size: var(--h1size);
-    font-weight: 600;
-    letter-spacing: -0.03em;
+    font-weight: 700;
+    letter-spacing: -0.025em;
     color: var(--primary);
 }
 
@@ -100,44 +105,40 @@ img {
     margin-inline-start: auto;
 }
 
-/* Social Icons - Modern pill style */
+/* Social Icons - Clean minimal style */
 .social-icons {
-    padding: 20px 0;
+    padding: 16px 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 8px;
 }
 
 .social-icons a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    background: var(--entry);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: transparent;
     border: 1px solid var(--border);
     transition: all var(--transition);
-    box-shadow: var(--shadow-sm);
 }
 
 .social-icons a svg {
-    height: 20px;
-    width: 20px;
-    transition: all var(--transition);
+    height: 18px;
+    width: 18px;
+    transition: all var(--transition-fast);
     color: var(--secondary);
 }
 
 .social-icons a:hover {
     background: var(--primary);
     border-color: var(--primary);
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: var(--shadow-lg);
 }
 
 .social-icons a:hover svg {
     color: var(--theme);
-    transform: scale(1.1);
 }
 
 /* Code Blocks */

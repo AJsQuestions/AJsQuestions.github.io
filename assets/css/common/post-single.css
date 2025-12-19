@@ -1,14 +1,14 @@
 /* Post/Page Header */
 .page-header,
 .post-header {
-    margin: 48px auto var(--content-gap) auto;
-    animation: fadeIn 0.5s ease-out;
+    margin: 32px auto var(--content-gap) auto;
+    animation: fadeIn 0.4s ease-out;
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(12px);
+        transform: translateY(8px);
     }
     to {
         opacity: 1;
@@ -18,20 +18,20 @@
 
 .post-title {
     font-family: var(--font-display);
-    margin-bottom: 20px;
-    font-size: clamp(32px, 8vw, 48px);
+    margin-bottom: 16px;
+    font-size: clamp(28px, 6vw, 40px);
     font-weight: 700;
-    letter-spacing: -0.04em;
-    line-height: 1.1;
+    letter-spacing: -0.025em;
+    line-height: 1.15;
     color: var(--primary);
 }
 
 .post-description {
-    margin-top: 16px;
-    margin-bottom: 12px;
-    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    font-size: 17px;
     color: var(--secondary);
-    line-height: 1.7;
+    line-height: 1.65;
 }
 
 /* Post Meta */
@@ -92,7 +92,7 @@
     color: var(--primary);
 }
 
-/* Post Content - Enhanced Typography */
+/* Post Content - Refined Typography */
 .post-content {
     color: var(--content);
     line-height: var(--lineheight);
@@ -108,39 +108,39 @@
     font-family: var(--font-display);
     letter-spacing: -0.02em;
     color: var(--primary);
-    margin-top: 2.5em;
-    margin-bottom: 0.75em;
+    margin-top: 2em;
+    margin-bottom: 0.6em;
 }
 
 .post-content h1 {
-    font-size: clamp(28px, 5vw, 36px);
+    font-size: clamp(24px, 4vw, 30px);
     font-weight: 700;
-    margin-top: 2em;
+    margin-top: 1.75em;
 }
 
 .post-content h2 {
-    font-size: clamp(22px, 4vw, 26px);
+    font-size: clamp(20px, 3.5vw, 24px);
     font-weight: 600;
-    padding-bottom: 12px;
+    padding-bottom: 8px;
     border-bottom: 1px solid var(--border);
-    margin-top: 2.5em;
+    margin-top: 2em;
 }
 
 .post-content h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 .post-content h4 {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
 }
 
 .post-content h5 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
     color: var(--secondary);
 }
 
@@ -156,20 +156,20 @@
     margin-top: 0;
 }
 
-/* Links - Subtle underline */
+/* Links - Clean underline */
 .post-content a,
 .post-meta a {
     color: var(--primary);
     text-decoration: underline;
-    text-decoration-color: var(--gray);
-    text-underline-offset: 4px;
+    text-decoration-color: var(--border);
+    text-underline-offset: 3px;
     text-decoration-thickness: 1px;
     transition: all var(--transition-fast);
 }
 
 .post-content a:hover,
 .post-meta a:hover {
-    text-decoration-color: var(--primary);
+    text-decoration-color: var(--secondary);
 }
 
 .toc a:hover {
@@ -192,22 +192,22 @@
 .post-content p,
 .post-content figure,
 .post-content ul {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.4em;
 }
 
 .post-content ol,
 .post-content ul {
-    padding-inline-start: 1.5em;
-    margin-left: 0.5em;
+    padding-inline-start: 1.25em;
+    margin-left: 0;
 }
 
 .post-content li {
-    margin-top: 0.5em;
-    padding-left: 0.25em;
+    margin-top: 0.4em;
+    padding-left: 0.2em;
 }
 
 .post-content li::marker {
-    color: var(--gray);
+    color: var(--secondary);
 }
 
 .post-content li p {
@@ -217,7 +217,7 @@
 /* Nested lists */
 .post-content li ul,
 .post-content li ol {
-    margin-top: 0.5em;
+    margin-top: 0.4em;
     margin-bottom: 0;
 }
 
@@ -229,6 +229,7 @@
 
 .post-content em {
     font-style: italic;
+    color: var(--primary);
 }
 
 /* Definition Lists */
@@ -336,33 +337,35 @@
 /* Inline Code */
 .post-content code {
     font-family: var(--font-mono);
-    margin: 0 2px;
-    padding: 3px 7px;
-    font-size: 0.875em;
+    margin: 0 1px;
+    padding: 2px 6px;
+    font-size: 0.85em;
     background: var(--tertiary);
-    border-radius: 6px;
+    border-radius: var(--radius-xs);
     color: var(--primary);
 }
 
 .post-content pre code {
     display: block;
     margin: 0;
-    padding: 20px 24px;
+    padding: 18px 20px;
     color: #e4e4e7;
     border-radius: var(--radius);
     overflow-x: auto;
     word-break: break-all;
     background: transparent;
+    font-size: 14px;
+    line-height: 1.6;
 }
 
-/* Blockquotes - Clean side border */
+/* Blockquotes - Minimal left border */
 .post-content blockquote {
-    margin: 2em 0;
-    padding: 1em 1.5em;
-    border-left: 3px solid var(--primary);
-    background: var(--tertiary);
-    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    margin: 1.75em 0;
+    padding: 0.5em 0 0.5em 1.25em;
+    border-left: 2px solid var(--border);
+    background: transparent;
     color: var(--secondary);
+    font-style: italic;
 }
 
 .post-content blockquote p {
@@ -370,15 +373,16 @@
 }
 
 .post-content blockquote p:not(:last-child) {
-    margin-bottom: 1em;
+    margin-bottom: 0.75em;
 }
 
-/* Horizontal Rule */
+/* Horizontal Rule - minimal separator */
 .post-content hr {
-    margin: 3em 0;
+    margin: 2.5em 0;
     height: 1px;
     background: var(--border);
     border: 0;
+    max-width: 80px;
 }
 
 /* Media */
