@@ -2,7 +2,9 @@
 title: "Education"
 aliases: /about/education
 author: " "
-summary: "BS Data Science, MS Financial Mathematics" 
+summary: "MS Financial Mathematics • BS Data Science" 
 ---
+
 ## Education
-(Click for details ⬇)
+
+*Click for details*

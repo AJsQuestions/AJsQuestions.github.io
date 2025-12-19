@@ -25,9 +25,6 @@ menu:
         - name: Connect
           url: /contact/
           weight: 4
-        - name: Tags
-          url: /tags/
-          weight: 5 
 
 params:
     description: "I like to apply Data Science to Machine Learning to create solutions for problems in Quantitative 
@@ -75,9 +72,6 @@ params:
             - name: Connect
               url: /contact/
               weight: 4
-            - name: Tags
-              url: /tags/
-              weight: 5 
     socialIcons:
         - name: CV
           url: /CV_Aug24.pdf
@@ -105,7 +99,7 @@ markup:
             unsafe: true
     highlight:
         guessSyntax: true
-        style: autumn 
+        style: monokai
     tableOfContents:
         endLevel: 2
         ordered: false

@@ -2,14 +2,14 @@
     --gap: 24px;
     --content-gap: 24px;
     --nav-width: 1024px;
-    --main-width: 800px;
+    --main-width: 720px;
     --header-height: 72px;
     --footer-height: 80px;
-    --radius: 20px;
-    --radius-sm: 12px;
-    --radius-xs: 8px;
+    --radius: 16px;
+    --radius-sm: 10px;
+    --radius-xs: 6px;
     
-    /* Light theme - modern crisp grayscale */
+    /* Light theme - clean grayscale */
     --theme: #ffffff;
     --theme-rgb: 255, 255, 255;
     --entry: #fafafa;
@@ -17,62 +17,60 @@
     --secondary: #71717a;
     --tertiary: #f4f4f5;
     --gray: #a1a1aa;
-    --content: #27272a;
+    --content: #3f3f46;
     --hljs-bg: #18181b;
     --code-bg: #f4f4f5;
     --border: #e4e4e7;
     
-    /* Accent colors - pure monochrome with punch */
+    /* Accent colors */
     --accent: #09090b;
     --accent-secondary: #3f3f46;
     --accent-light: #52525b;
-    --accent-soft: rgba(9, 9, 11, 0.06);
-    --accent-glow: rgba(9, 9, 11, 0.12);
+    --accent-soft: rgba(9, 9, 11, 0.05);
+    --accent-glow: rgba(9, 9, 11, 0.1);
     
-    /* Modern gradient accents */
+    /* Gradients */
     --gradient-accent: linear-gradient(135deg, #09090b 0%, #27272a 100%);
-    --gradient-subtle: linear-gradient(180deg, rgba(9, 9, 11, 0.02) 0%, rgba(9, 9, 11, 0.05) 100%);
-    --gradient-hero: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(9, 9, 11, 0.08) 0%, transparent 60%);
-    --gradient-glow: radial-gradient(circle at center, rgba(255, 255, 255, 0.8) 0%, transparent 70%);
+    --gradient-subtle: linear-gradient(180deg, rgba(9, 9, 11, 0.01) 0%, rgba(9, 9, 11, 0.03) 100%);
+    --gradient-hero: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(9, 9, 11, 0.04) 0%, transparent 60%);
     
     /* Glass effect */
-    --glass-bg: rgba(255, 255, 255, 0.7);
+    --glass-bg: rgba(255, 255, 255, 0.8);
     --glass-border: rgba(255, 255, 255, 0.5);
     --glass-blur: 20px;
     
-    /* Typography - clean modern stack */
+    /* Typography */
     --font-sans: 'Satoshi', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-display: 'Clash Display', 'Satoshi', sans-serif;
     --font-mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
     
     --semibold: 600;
     --homesize: 16px;
-    --textsize: 17px;
-    --h1size: 32px;
+    --textsize: 16px;
+    --h1size: 28px;
     --entrysize: 15px;
     --headersize: 14px;
     --footersize: 13px;
-    --lineheight: 1.75;
+    --lineheight: 1.7;
     --lineclamp: 8;
-    --marginleft: 24px;
+    --marginleft: 20px;
     
-    /* Modern shadows - layered depth */
-    --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
-    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
-    --shadow: 0 4px 16px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.04);
-    --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.08), 0 4px 8px rgba(0, 0, 0, 0.04);
-    --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.06);
-    --shadow-xl: 0 24px 64px rgba(0, 0, 0, 0.12), 0 12px 24px rgba(0, 0, 0, 0.08);
-    --shadow-glow: 0 0 60px var(--accent-glow);
-    --shadow-accent: 0 8px 32px rgba(0, 0, 0, 0.15);
-    --shadow-inner: inset 0 2px 4px rgba(0, 0, 0, 0.04);
+    /* Shadows */
+    --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.03);
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.03);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.06), 0 2px 6px rgba(0, 0, 0, 0.03);
+    --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.04);
+    --shadow-xl: 0 24px 56px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.05);
+    --shadow-glow: 0 0 48px var(--accent-glow);
+    --shadow-accent: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --shadow-inner: inset 0 1px 3px rgba(0, 0, 0, 0.03);
     
-    /* Transitions - smooth modern easing */
-    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
-    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-spring: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
-    --transition-bounce: 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    /* Transitions */
+    --transition-fast: 120ms ease;
+    --transition: 200ms ease;
+    --transition-slow: 350ms ease;
+    --transition-spring: 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .dark {
@@ -82,7 +80,7 @@
     --primary: #fafafa;
     --secondary: #a1a1aa;
     --tertiary: #27272a;
-    --content: #e4e4e7;
+    --content: #d4d4d8;
     --hljs-bg: #18181b;
     --code-bg: #18181b;
     --border: #27272a;
@@ -91,25 +89,24 @@
     --accent: #fafafa;
     --accent-secondary: #d4d4d8;
     --accent-light: #e4e4e7;
-    --accent-soft: rgba(250, 250, 250, 0.08);
-    --accent-glow: rgba(250, 250, 250, 0.12);
+    --accent-soft: rgba(250, 250, 250, 0.06);
+    --accent-glow: rgba(250, 250, 250, 0.1);
     
     --gradient-accent: linear-gradient(135deg, #fafafa 0%, #d4d4d8 100%);
-    --gradient-subtle: linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.04) 100%);
-    --gradient-hero: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(255, 255, 255, 0.06) 0%, transparent 60%);
+    --gradient-subtle: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.02) 100%);
+    --gradient-hero: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(255, 255, 255, 0.03) 0%, transparent 60%);
     
-    /* Dark glass effect */
-    --glass-bg: rgba(24, 24, 27, 0.8);
-    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-bg: rgba(24, 24, 27, 0.85);
+    --glass-border: rgba(255, 255, 255, 0.06);
     
-    --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.2);
-    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
-    --shadow: 0 4px 16px rgba(0, 0, 0, 0.4), 0 2px 4px rgba(0, 0, 0, 0.2);
-    --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.5), 0 4px 8px rgba(0, 0, 0, 0.3);
-    --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.6), 0 8px 16px rgba(0, 0, 0, 0.4);
-    --shadow-xl: 0 24px 64px rgba(0, 0, 0, 0.7), 0 12px 24px rgba(0, 0, 0, 0.5);
-    --shadow-accent: 0 8px 32px rgba(255, 255, 255, 0.08);
-    --shadow-inner: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+    --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.15);
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.15);
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 0 1px 3px rgba(0, 0, 0, 0.15);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.3), 0 2px 6px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.35), 0 4px 12px rgba(0, 0, 0, 0.25);
+    --shadow-xl: 0 24px 56px rgba(0, 0, 0, 0.4), 0 8px 20px rgba(0, 0, 0, 0.3);
+    --shadow-accent: 0 8px 24px rgba(255, 255, 255, 0.05);
+    --shadow-inner: inset 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 
 .list {
@@ -119,5 +116,3 @@
 .dark.list {
     background: var(--theme);
 }
-
-/* Fonts loaded via head.html for better performance */
