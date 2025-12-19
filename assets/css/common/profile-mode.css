@@ -1,4 +1,4 @@
-/* Profile Mode - Hero Section */
+/* Profile Mode - Modern Hero Section */
 .main .profile {
     display: flex;
     justify-content: center;
@@ -6,9 +6,8 @@
     min-height: calc(100vh - var(--header-height) - (var(--gap) * 2));
     font-size: var(--homesize);
     line-height: var(--lineheight);
-    padding: 60px 0;
+    padding: 80px 0;
     position: relative;
-    overflow: hidden;
 }
 
 .profile .profile_inner {
@@ -16,49 +15,28 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 28px;
+    gap: 32px;
     position: relative;
     z-index: 1;
 }
 
-/* Profile Image */
+/* Profile Image - Modern circular with subtle shadow */
 .profile-image-wrapper {
     position: relative;
-}
-
-.profile-image-wrapper::before {
-    content: '';
-    position: absolute;
-    inset: -6px;
-    background: var(--gradient-accent);
-    border-radius: 50%;
-    z-index: -1;
-    opacity: 0;
-    transition: opacity var(--transition);
-    animation: rotate 8s linear infinite;
-}
-
-@keyframes rotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
-.profile-image-wrapper:hover::before {
-    opacity: 1;
 }
 
 .profile img {
     display: block;
     border-radius: 50%;
-    border: 5px solid var(--entry);
-    box-shadow: var(--shadow-lg);
+    border: 4px solid var(--theme);
+    box-shadow: var(--shadow-xl);
     transition: all var(--transition);
     object-fit: cover;
 }
 
 .profile img:hover {
-    border-color: transparent;
     transform: scale(1.03);
+    box-shadow: var(--shadow-xl), 0 0 0 4px var(--border);
 }
 
 /* Profile Text */
@@ -70,21 +48,11 @@
     font-family: var(--font-display);
     padding: 0;
     margin: 0 0 20px 0;
-    font-size: clamp(48px, 12vw, 72px);
+    font-size: clamp(48px, 12vw, 80px);
     font-weight: 700;
-    letter-spacing: -0.04em;
-    line-height: 1.05;
-    background: var(--gradient-accent);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    background-size: 200% 200%;
-    animation: gradientShift 8s ease-in-out infinite;
-}
-
-@keyframes gradientShift {
-    0%, 100% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
+    letter-spacing: -0.05em;
+    line-height: 1;
+    color: var(--primary);
 }
 
 .profile-subtitle {
@@ -92,16 +60,16 @@
     font-weight: 400;
     color: var(--secondary);
     line-height: 1.8;
-    margin: 0 0 12px 0;
-    max-width: 560px;
+    margin: 0 0 8px 0;
+    max-width: 520px;
 }
 
 /* Social Icons in Profile */
 .profile .social-icons {
-    padding: 24px 0;
+    padding: 28px 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 14px;
+    gap: 12px;
 }
 
 .profile .social-icons a {
@@ -110,214 +78,102 @@
     justify-content: center;
     width: 52px;
     height: 52px;
-    border-radius: 16px;
+    border-radius: 50%;
     background: var(--entry);
     border: 1px solid var(--border);
     transition: all var(--transition);
-    box-shadow: var(--shadow);
-    position: relative;
-    overflow: hidden;
-}
-
-.profile .social-icons a::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: var(--gradient-accent);
-    opacity: 0;
-    transition: opacity var(--transition);
+    box-shadow: var(--shadow-sm);
 }
 
 .profile .social-icons a svg {
     height: 22px;
     width: 22px;
     transition: all var(--transition);
-    position: relative;
-    z-index: 1;
+    color: var(--secondary);
 }
 
 .profile .social-icons a:hover {
-    border-color: transparent;
-    color: white;
-    transform: translateY(-4px) scale(1.05);
-    box-shadow: var(--shadow-lg), var(--shadow-accent);
-}
-
-.profile .social-icons a:hover::before {
-    opacity: 1;
+    background: var(--primary);
+    border-color: var(--primary);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
 }
 
 .profile .social-icons a:hover svg {
-    transform: scale(1.15);
+    color: var(--theme);
+    transform: scale(1.1);
 }
 
-/* Profile Buttons */
+/* Profile Buttons - Modern pill style */
 .buttons {
     display: flex;
     flex-wrap: wrap;
-    gap: 14px;
-    margin-top: 12px;
+    gap: 12px;
+    margin-top: 8px;
 }
 
 .button {
     position: relative;
-    background: var(--entry);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 14px 28px;
+    background: var(--primary);
+    border: none;
+    border-radius: 100px;
+    padding: 16px 32px;
     font-family: var(--font-sans);
     font-weight: 600;
     font-size: 15px;
-    letter-spacing: 0.01em;
-    color: var(--primary);
+    letter-spacing: -0.01em;
+    color: var(--theme);
     transition: all var(--transition);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-md);
     cursor: pointer;
     text-decoration: none;
-    overflow: hidden;
-}
-
-.button::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: var(--gradient-accent);
-    opacity: 0;
-    transition: opacity var(--transition);
-    z-index: 0;
-}
-
-/* Shine effect on hover */
-.button::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
-    transition: none;
-    z-index: 1;
-}
-
-.button:hover::after {
-    animation: shine 0.6s ease-out forwards;
-}
-
-@keyframes shine {
-    0% { left: -100%; }
-    100% { left: 100%; }
 }
 
 .button-inner {
-    position: relative;
-    z-index: 2;
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
 .button:hover {
-    border-color: transparent;
-    color: white;
     transform: translateY(-3px);
-    box-shadow: var(--shadow-lg), var(--shadow-accent);
-}
-
-.button:hover::before {
-    opacity: 1;
+    box-shadow: var(--shadow-xl);
 }
 
 .button:active {
     transform: translateY(-1px);
 }
 
-/* Animated decorative background elements */
-@keyframes float {
-    0%, 100% { transform: translateY(0px) rotate(0deg); }
-    50% { transform: translateY(-30px) rotate(8deg); }
-}
-
-@keyframes floatReverse {
-    0%, 100% { transform: translateY(0px) rotate(0deg) scale(1); }
-    50% { transform: translateY(20px) rotate(-5deg) scale(1.1); }
-}
-
-@keyframes pulse {
-    0%, 100% { opacity: 0.4; transform: scale(1); }
-    50% { opacity: 0.7; transform: scale(1.08); }
-}
-
-/* Primary decorative orb */
+/* Subtle background decoration */
 .profile::before {
     content: '';
     position: absolute;
-    top: 5%;
-    right: -5%;
-    width: 450px;
-    height: 450px;
-    background: radial-gradient(circle, var(--accent) 0%, transparent 70%);
+    top: 20%;
+    right: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, var(--tertiary) 0%, transparent 70%);
     border-radius: 50%;
-    filter: blur(100px);
-    opacity: 0.15;
+    opacity: 0.6;
     pointer-events: none;
-    animation: float 12s ease-in-out infinite, pulse 8s ease-in-out infinite;
 }
 
-/* Secondary decorative orb */
 .profile::after {
     content: '';
     position: absolute;
     bottom: 10%;
-    left: -10%;
-    width: 350px;
-    height: 350px;
-    background: radial-gradient(circle, var(--accent-secondary) 0%, transparent 70%);
+    left: -15%;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, var(--tertiary) 0%, transparent 70%);
     border-radius: 50%;
-    filter: blur(80px);
-    opacity: 0.12;
+    opacity: 0.4;
     pointer-events: none;
-    animation: floatReverse 10s ease-in-out infinite;
 }
 
-/* Tertiary decorative element */
-.profile .profile_inner::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    width: 200px;
-    height: 200px;
-    background: radial-gradient(circle, rgba(147, 51, 234, 0.5) 0%, transparent 70%);
-    border-radius: 50%;
-    filter: blur(60px);
-    opacity: 0.08;
-    pointer-events: none;
-    animation: float 8s ease-in-out infinite reverse;
-}
-
-.dark .profile::before {
-    opacity: 0.2;
-}
-
+.dark .profile::before,
 .dark .profile::after {
-    opacity: 0.15;
-}
-
-/* Geometric decoration */
-.profile .profile_inner::after {
-    content: '';
-    position: absolute;
-    top: 20%;
-    right: 15%;
-    width: 80px;
-    height: 80px;
-    border: 2px solid var(--accent);
-    border-radius: 20px;
-    opacity: 0.1;
-    transform: rotate(45deg);
-    pointer-events: none;
-    animation: float 15s ease-in-out infinite;
+    opacity: 0.3;
 }
 
 /* Responsive adjustments */
@@ -334,7 +190,7 @@
     }
     
     .profile .profile_inner h1 {
-        font-size: clamp(40px, 14vw, 56px);
+        font-size: clamp(36px, 14vw, 52px);
     }
     
     .profile-subtitle {
@@ -351,6 +207,6 @@
     
     .profile::before,
     .profile::after {
-        opacity: 0.08;
+        display: none;
     }
 }
