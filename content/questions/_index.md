@@ -1,6 +1,9 @@
 ---
-title: "Questions"
+title: "Blog"
 aliases: /blog
-description: "AJ's Blog"
+description: "Notes and thoughts"
 ---
-## __Blog__
+
+## Blog
+
+*Notes on quant finance, ML, and data science*

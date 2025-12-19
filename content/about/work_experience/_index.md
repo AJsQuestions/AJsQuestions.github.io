@@ -1,8 +1,7 @@
 ---
 title: "Experience"
 aliases: /about/workex
-author: " "
-summary: "Derivatives Strategy • Quantitative Research • Data Science" 
+description: "Professional experience"
 ---
 
 ## Professional Experience
