@@ -7,6 +7,11 @@ description: "Thought experiments I think with"
 > *I don’t keep questions because I expect answers.  
 > I keep them because they change how I notice things.*
 
+<small>—</small>
+
+> “The true delight is in the finding out rather than in the knowing.”  
+> <small>— Isaac Asimov</small>
+
 ---
 
 {{< rawhtml >}}

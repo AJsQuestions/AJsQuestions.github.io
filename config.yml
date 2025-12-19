@@ -56,7 +56,7 @@ params:
           enabled: true
           title: AJ
           subtitle: "Financial Data Science | PhD @ UCLA Anderson | HBS | Booth | IIM-B | MS FinMath UChicago"
-          imageUrl: "/AJpicture.jpeg"
+          imageUrl: "/AJpicture.jpg"
           imageWidth: 160
           imageHeight: 160
           imageTitle: AJ
