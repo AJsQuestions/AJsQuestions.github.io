@@ -11,7 +11,6 @@ I care deeply about **how technical ideas land**.
 ### Courses
 
 - Financial Econometrics
-- Machine Learning in Finance
 - Decoding FinTech
 
 ---

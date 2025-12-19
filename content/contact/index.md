@@ -4,7 +4,7 @@ aliases: /contact
 description: "Get in touch"
 ---
 
-**Email** — aryaman.jena5000@gmail.com
+**Email** — aryamaan.jena.phd@anderson.ucla.edu
 
 **LinkedIn** — [linkedin.com/in/aj‑jena](https://www.linkedin.com/in/aj-jena-13b738172/)
 

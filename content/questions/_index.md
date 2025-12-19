@@ -175,6 +175,4 @@ description: "Thought experiments I think with"
 
 ---
 
-These questions evolve slowly.  
-Some disappear.  
-Others refuse to.
+These questions evolve slowly.
