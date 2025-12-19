@@ -1,42 +1,30 @@
 ---
 title: "About"
 aliases: /about
-description: "Biography, education, and experience"
+description: "Personal story and perspective"
 ---
 
-## Bio
+# About
 
-I'm a **PhD student at UCLA Anderson School of Management**, specializing in Finance within the Management Science program.
+I grew up in Mumbai in a family that treated education as inheritance.
 
-My research interests span **statistical learning theory, mathematical finance, and econometrics** — applying data science and machine learning to solve problems in quantitative finance.
+My path through data science, finance, and machine learning  
+has always been motivated by one question:
 
-Previously, I was a **Research Associate at Harvard Business School** (Profs. Ivashina & Lerner) and **IIM Bangalore** (Prof. Panchapagesan), and a **Research Assistant at Chicago Booth** (Prof. Xiu).
+**Who gets to understand the systems that govern wealth?**
 
-I worked as a **Derivatives Strategy Analyst at Cboe Global Markets**, and hold an **MS in Financial Mathematics from UChicago** and a **BS in Data Science from SP Jain**.
+I believe research should:  
+- reduce ambiguity, not inflate it  
+- build tools people can interrogate  
+- leave breadcrumbs for the next person
 
----
+Outside work, I enjoy:  
+- turning playlists into datasets  
+- clean LaTeX more than clean rooms  
+- long walks where half‑baked ideas become usable ones
 
-## Research Interests
+I’m drawn to problems that sit slightly off‑center—  
+where theory is uneasy and data talks back.
 
-**Statistical Learning Theory** — ML foundations and applications  
-**Mathematical & Computational Finance** — Quantitative methods  
-**Econometrics & Statistics** — Causal inference and empirical methods
-
----
-
-## Skills
-
-**Programming**  
-Python • R • SQL • LaTeX
-
-**Data Science**  
-NumPy • Pandas • Scikit-Learn • SciPy • Statsmodels
-
-**Knowledge**  
-Machine Learning • Predictive Modeling • Quantitative Research • Financial Data Science
-
----
-
-## CV
-
-*Click any section for details*
+Most recently, I worked as a Research Associate at IIM Bangalore (Oct 2024 – Jan 2025),  
+before beginning my PhD at UCLA.
