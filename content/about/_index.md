@@ -6,12 +6,26 @@ description: "Biography, education, and experience"
 
 ## Bio
 
-AJ is a quantitative researcher, data scientist, and machine learning practitioner.
+I'm a **Research Associate at Harvard Business School** working with Professors Victoria Ivashina and Josh Lerner on portfolio optimization and innovation econometrics.
 
-Interested in the design and analysis of statistical machine learning motivated by applications to several industries, including but not limited to FinTech and Quantitative Finance. Aspiring Researcher with an aptitude to use data science skills in mathematical modeling, logical problem solving, and entrepreneurship.
+Previously, I worked as a **Derivatives Strategy Analyst at Cboe Global Markets**, developing algorithms for VIX index pricing and SEC regulatory compliance automation.
+
+I hold an **MS in Financial Mathematics from the University of Chicago** with a concentration in Financial Data Science, and a **BS in Data Science from SP Jain School of Global Management**.
+
+My work spans **quantitative finance, machine learning, and data science** — from volatility modeling and portfolio theory to building ML pipelines for real estate pricing and credit risk.
+
+---
+
+## Highlights
+
+**Research** — Portfolio optimization for pension funds, liquidity risk premium estimation, killer acquisitions in finance  
+
+**Industry** — VIX derivatives, fixed income indices, cryptocurrency trading signals, computer vision pipelines
+
+**Teaching** — Head TA for Financial Econometrics and Decoding FinTech at Chicago Booth
 
 ---
 
 ## CV
 
-*Click any section below for details*
+*Click any section for details*

@@ -1,27 +1,24 @@
 ---
 title: "Connect"
 aliases: /contact
-description: "Reach AJ"
+description: "Get in touch"
 author: " "
-
-params:
-  socialIcons:
-    - name: "CV"
-      url: "/CV_Aug24.pdf"
-    - name: "Email"
-      url: "mailto:aryaman.jena5000@gmail.com"
-    - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/aj-jena-13b738172/"
-    - name: "GitHub"
-      url: "https://github.com/ajsquestions"
 ---
-## Say Hi!
 
-The best way to contact me is by email:
-aryaman [dot] jena5000  [at] gmail [dot] com
+## Get in Touch
 
-I am most responsive here.
-Please add your name in the subject line along with your purpose. Eg. "AJ - Coffee Chat".
+**Email** — aryaman.jena5000@gmail.com
 
-I am also responsive on LinkedIn.
+I'm most responsive via email. Please include your name and purpose in the subject line.
 
+**LinkedIn** — [/in/aj-jena](https://www.linkedin.com/in/aj-jena-13b738172/)
+
+Also happy to connect here.
+
+---
+
+## Links
+
+- [CV (PDF)](/CV_Aug24.pdf)
+- [GitHub](https://github.com/ajsquestions)
+- [LinkedIn](https://www.linkedin.com/in/aj-jena-13b738172/)
