@@ -104,8 +104,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="{{ site.Params.assets.favicon32x32 | default "favicon-32x32.png" | absURL }}">
 <link rel="apple-touch-icon" href="{{ site.Params.assets.apple_touch_icon | default "apple-touch-icon.png" | absURL }}">
 <!-- <link rel="mask-icon" href="{{ site.Params.assets.safari_pinned_tab | default "safari-pinned-tab.svg" | absURL }}"> -->
-<meta name="theme-color" content="{{ site.Params.assets.theme_color | default "#0c0a09" }}">
-<meta name="msapplication-TileColor" content="{{ site.Params.assets.msapplication_TileColor | default "#d97706" }}">
+<meta name="theme-color" content="{{ site.Params.assets.theme_color | default "#0a0a0a" }}">
+<meta name="msapplication-TileColor" content="{{ site.Params.assets.msapplication_TileColor | default "#171717" }}">
 
 {{- /* RSS */}}
 {{ range .AlternativeOutputFormats -}}
@@ -127,16 +127,16 @@
     <style>
         @media (prefers-color-scheme: dark) {
             :root {
-                --theme: rgb(12, 10, 9);
-                --entry: rgb(28, 25, 23);
-                --primary: rgb(250, 250, 249);
-                --secondary: rgb(168, 162, 158);
-                --tertiary: rgb(41, 37, 36);
-                --content: rgb(214, 211, 209);
-                --hljs-bg: rgb(28, 25, 23);
-                --code-bg: rgb(28, 25, 23);
-                --border: rgb(41, 37, 36);
-                --accent: rgb(245, 158, 11);
+                --theme: rgb(10, 10, 10);
+                --entry: rgb(23, 23, 23);
+                --primary: rgb(250, 250, 250);
+                --secondary: rgb(163, 163, 163);
+                --tertiary: rgb(38, 38, 38);
+                --content: rgb(212, 212, 212);
+                --hljs-bg: rgb(23, 23, 23);
+                --code-bg: rgb(23, 23, 23);
+                --border: rgb(38, 38, 38);
+                --accent: rgb(250, 250, 250);
             }
 
             .list {
