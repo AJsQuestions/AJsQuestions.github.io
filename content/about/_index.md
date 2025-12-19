@@ -24,6 +24,19 @@ I worked as a **Derivatives Strategy Analyst at Cboe Global Markets**, and hold 
 
 ---
 
+## Skills
+
+**Research**  
+Machine Learning • Data Science • Econometrics • Statistical Modeling • Quantitative Research • Quantitative Finance • Portfolio Optimization • Time Series Analysis
+
+**Technical**  
+Python • R • SQL • LaTeX • Data Engineering • Quantitative Development
+
+**Professional**  
+Research Collaboration • University Teaching • Leadership • Public Speaking • FinTech
+
+---
+
 ## CV
 
 *Click any section for details*
