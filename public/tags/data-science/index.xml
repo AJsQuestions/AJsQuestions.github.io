@@ -6,7 +6,16 @@
     <description>Recent content in Data Science on AJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Associate</title>
+      <link>http://localhost:1313/r0/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/r0/</guid>
+      <description>Real Estate Indices &amp;amp; Pre-Sale Options</description>
+    </item>
+    
     <item>
       <title>Can we build an ML Trading Bot in a 100 lines of code? (Part 1)</title>
       <link>http://localhost:1313/q1/</link>
@@ -17,66 +26,66 @@
     </item>
     
     <item>
-      <title>Research Associate (predoctoral)</title>
+      <title>Research Associate (Predoctoral)</title>
       <link>http://localhost:1313/r1/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/r1/</guid>
-      <description>Profs. Victoria Ivashina and Josh Lerner - Finance and Entrepreneurship</description>
+      <description>Finance &amp;amp; Entrepreneurship Research</description>
     </item>
     
     <item>
-      <title>Master of Science, Financial Mathematics</title>
+      <title>MS Financial Mathematics</title>
       <link>http://localhost:1313/e2/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/e2/</guid>
-      <description>Machine Learning, Quantitative and Computational Finance, Financial Data Science</description>
+      <description>Financial Data Science Concentration</description>
     </item>
     
     <item>
-      <title>Derivatives Strategy Analyst Intern</title>
+      <title>Derivatives Strategy Analyst</title>
       <link>http://localhost:1313/w1/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/w1/</guid>
-      <description>Financial Data Science, Volatility Econometrics, Numerical Options Pricing</description>
+      <description>VIX Derivatives, SEC Compliance, Financial Data Science</description>
     </item>
     
     <item>
-      <title>Quantitative Researcher Intern</title>
+      <title>Quantitative Researcher</title>
       <link>http://localhost:1313/w2/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/w2/</guid>
-      <description>Financial Data Science, Machine Learning, Cryptocurrency Trading Signals</description>
+      <description>Cryptocurrency Trading Signals, Machine Learning, PCA</description>
     </item>
     
     <item>
-      <title>Data Scientist Intern</title>
+      <title>Data Scientist</title>
       <link>http://localhost:1313/w3/</link>
       <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/w3/</guid>
-      <description>Data Science, Machine Learning, Computer Vision, NLP</description>
+      <description>Computer Vision, NLP, Document Digitization</description>
     </item>
     
     <item>
-      <title>Bachelor of Science, Data Science</title>
+      <title>BS Data Science</title>
       <link>http://localhost:1313/e3/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/e3/</guid>
-      <description>Mathematics, Computer Science, Statistics, Machine Learning</description>
+      <description>Machine Learning Concentration</description>
     </item>
     
     <item>
-      <title>Quantitative Analyst and Software Engineer Intern</title>
+      <title>Quantitative Analyst</title>
       <link>http://localhost:1313/w4/</link>
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/w4/</guid>
-      <description>Financial Data Science, Tail Risk, Startup</description>
+      <description>Tail Risk Hedging, Derivatives Pricing</description>
     </item>
     
   </channel>

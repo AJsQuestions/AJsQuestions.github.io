@@ -2,7 +2,7 @@
 title: "Education"
 aliases: /about/education
 author: " "
-summary: "MS Financial Mathematics • BS Data Science" 
+summary: "PhD UCLA Anderson • MS UChicago • BS SP Jain" 
 ---
 
 ## Education

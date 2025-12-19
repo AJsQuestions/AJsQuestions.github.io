@@ -6,7 +6,16 @@
     <description>Recent content in Quant Finance on AJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/quant-finance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/quant-finance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PhD Management Science (Finance)</title>
+      <link>http://localhost:1313/e1/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/e1/</guid>
+      <description>Statistical Learning, Quant Finance, Econometrics</description>
+    </item>
+    
     <item>
       <title>Can we build an ML Trading Bot in a 100 lines of code? (Part 1)</title>
       <link>http://localhost:1313/q1/</link>
@@ -17,39 +26,39 @@
     </item>
     
     <item>
-      <title>Master of Science, Financial Mathematics</title>
+      <title>MS Financial Mathematics</title>
       <link>http://localhost:1313/e2/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/e2/</guid>
-      <description>Machine Learning, Quantitative and Computational Finance, Financial Data Science</description>
+      <description>Financial Data Science Concentration</description>
     </item>
     
     <item>
-      <title>Derivatives Strategy Analyst Intern</title>
+      <title>Derivatives Strategy Analyst</title>
       <link>http://localhost:1313/w1/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/w1/</guid>
-      <description>Financial Data Science, Volatility Econometrics, Numerical Options Pricing</description>
+      <description>VIX Derivatives, SEC Compliance, Financial Data Science</description>
     </item>
     
     <item>
-      <title>Quantitative Researcher Intern</title>
+      <title>Quantitative Researcher</title>
       <link>http://localhost:1313/w2/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/w2/</guid>
-      <description>Financial Data Science, Machine Learning, Cryptocurrency Trading Signals</description>
+      <description>Cryptocurrency Trading Signals, Machine Learning, PCA</description>
     </item>
     
     <item>
-      <title>Quantitative Analyst and Software Engineer Intern</title>
+      <title>Quantitative Analyst</title>
       <link>http://localhost:1313/w4/</link>
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/w4/</guid>
-      <description>Financial Data Science, Tail Risk, Startup</description>
+      <description>Tail Risk Hedging, Derivatives Pricing</description>
     </item>
     
   </channel>

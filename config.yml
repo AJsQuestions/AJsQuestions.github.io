@@ -27,8 +27,7 @@ menu:
           weight: 4
 
 params:
-    description: "I like to apply Data Science to Machine Learning to create solutions for problems in Quantitative 
-    Finance. I currently work on Portfolio Management, Machine Learning, and Data Science related projects."
+    description: "Financial Data Science | PhD @ UCLA Anderson | HBS | Booth | IIM-B | MS FinMath UChicago"
     author: AJ
     googleAnalyticsID: ""
     DateFormat: "January 2006"
@@ -53,8 +52,7 @@ params:
     profileMode:
           enabled: true
           title: AJ
-          subtitle: "I like to apply Data Science to Machine Learning to create solutions for problems in Quantitative 
-          Finance. I currently work on Portfolio Management, Machine Learning, and Data Science related projects."
+          subtitle: "Financial Data Science | PhD @ UCLA Anderson | HBS | Booth | IIM-B | MS FinMath UChicago"
           imageUrl: "/AJpicture.jpeg"
           imageWidth: 160
           imageHeight: 160

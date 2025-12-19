@@ -6,23 +6,21 @@ description: "Biography, education, and experience"
 
 ## Bio
 
-I'm a **Research Associate at Harvard Business School** working with Professors Victoria Ivashina and Josh Lerner on portfolio optimization and innovation econometrics.
+I'm a **first-year PhD student at UCLA Anderson School of Management**, specializing in Finance within the Management Science program.
 
-Previously, I worked as a **Derivatives Strategy Analyst at Cboe Global Markets**, developing algorithms for VIX index pricing and SEC regulatory compliance automation.
+My research interests span **statistical learning theory, mathematical finance, and econometrics** — applying data science and machine learning to solve problems in quantitative finance.
 
-I hold an **MS in Financial Mathematics from the University of Chicago** with a concentration in Financial Data Science, and a **BS in Data Science from SP Jain School of Global Management**.
+Previously, I was a **Research Associate at Harvard Business School** working with Professors Victoria Ivashina and Josh Lerner, and at **IIM Bangalore** on real estate indices with Prof. Venkatesh Panchapagesan.
 
-My work spans **quantitative finance, machine learning, and data science** — from volatility modeling and portfolio theory to building ML pipelines for real estate pricing and credit risk.
+I worked as a **Derivatives Strategy Analyst at Cboe Global Markets**, and hold an **MS in Financial Mathematics from UChicago** and a **BS in Data Science from SP Jain**.
 
 ---
 
-## Highlights
+## Research Interests
 
-**Research** — Portfolio optimization for pension funds, liquidity risk premium estimation, killer acquisitions in finance  
-
-**Industry** — VIX derivatives, fixed income indices, cryptocurrency trading signals, computer vision pipelines
-
-**Teaching** — Head TA for Financial Econometrics and Decoding FinTech at Chicago Booth
+**Statistical Learning Theory** — ML foundations and applications  
+**Mathematical & Computational Finance** — Quantitative methods  
+**Econometrics & Statistics** — Causal inference and empirical methods
 
 ---
 

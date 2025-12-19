@@ -6,7 +6,16 @@
     <description>Recent content in Education on AJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/about/education/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/about/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PhD Management Science (Finance)</title>
+      <link>http://localhost:1313/e1/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/e1/</guid>
+      <description>Statistical Learning, Quant Finance, Econometrics</description>
+    </item>
+    
     <item>
       <title>MS Financial Mathematics</title>
       <link>http://localhost:1313/e2/</link>
