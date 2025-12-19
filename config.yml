@@ -8,9 +8,6 @@ pagination:
 enableInlineShortcodes: true
 enableRobotsTXT: true
 
-taxonomies:
-    tag: tags
-
 menu:
     main:
         - name: About

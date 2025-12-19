@@ -13,25 +13,16 @@
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/r0/</guid>
-      <description>Real Estate Indices &amp;amp; Pre-Sale Options</description>
+      <description>Real Estate Finance</description>
     </item>
     
     <item>
-      <title>Can we build an ML Trading Bot in a 100 lines of code? (Part 1)</title>
-      <link>http://localhost:1313/q1/</link>
-      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/q1/</guid>
-      <description>I build a trading bot using a simple ML strategy in a 100 lines of code</description>
-    </item>
-    
-    <item>
-      <title>Research Associate (Predoctoral)</title>
+      <title>Research Associate</title>
       <link>http://localhost:1313/r1/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/r1/</guid>
-      <description>Finance &amp;amp; Entrepreneurship Research</description>
+      <description>Finance &amp;amp; Entrepreneurship</description>
     </item>
     
     <item>
@@ -44,48 +35,30 @@
     </item>
     
     <item>
-      <title>Derivatives Strategy Analyst</title>
+      <title>Derivatives Strategy Analyst Intern</title>
       <link>http://localhost:1313/w1/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/w1/</guid>
-      <description>VIX Derivatives, SEC Compliance, Financial Data Science</description>
+      <description>Cboe Labs</description>
     </item>
     
     <item>
-      <title>Quantitative Researcher</title>
+      <title>Quantitative Researcher Intern</title>
       <link>http://localhost:1313/w2/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/w2/</guid>
-      <description>Cryptocurrency Trading Signals, Machine Learning, PCA</description>
-    </item>
-    
-    <item>
-      <title>Data Scientist</title>
-      <link>http://localhost:1313/w3/</link>
-      <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/w3/</guid>
-      <description>Computer Vision, NLP, Document Digitization</description>
+      <description>Data Science</description>
     </item>
     
     <item>
       <title>BS Data Science</title>
       <link>http://localhost:1313/e3/</link>
-      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/e3/</guid>
       <description>Machine Learning Concentration</description>
-    </item>
-    
-    <item>
-      <title>Quantitative Analyst</title>
-      <link>http://localhost:1313/w4/</link>
-      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/w4/</guid>
-      <description>Tail Risk Hedging, Derivatives Pricing</description>
     </item>
     
   </channel>

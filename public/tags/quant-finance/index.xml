@@ -17,12 +17,12 @@
     </item>
     
     <item>
-      <title>Can we build an ML Trading Bot in a 100 lines of code? (Part 1)</title>
+      <title>ML Trading Bot in 100 Lines of Code (Part 1)</title>
       <link>http://localhost:1313/q1/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/q1/</guid>
-      <description>I build a trading bot using a simple ML strategy in a 100 lines of code</description>
+      <description>Building a trading bot using a simple ML strategy</description>
     </item>
     
     <item>
@@ -35,30 +35,21 @@
     </item>
     
     <item>
-      <title>Derivatives Strategy Analyst</title>
+      <title>Derivatives Strategy Analyst Intern</title>
       <link>http://localhost:1313/w1/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/w1/</guid>
-      <description>VIX Derivatives, SEC Compliance, Financial Data Science</description>
+      <description>Cboe Labs</description>
     </item>
     
     <item>
-      <title>Quantitative Researcher</title>
+      <title>Quantitative Researcher Intern</title>
       <link>http://localhost:1313/w2/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/w2/</guid>
-      <description>Cryptocurrency Trading Signals, Machine Learning, PCA</description>
-    </item>
-    
-    <item>
-      <title>Quantitative Analyst</title>
-      <link>http://localhost:1313/w4/</link>
-      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/w4/</guid>
-      <description>Tail Risk Hedging, Derivatives Pricing</description>
+      <description>Data Science</description>
     </item>
     
   </channel>
