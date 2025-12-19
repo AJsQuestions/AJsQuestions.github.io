@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,600,700&f[]=clash-display@500,600,700&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="robots" content="noindex, nofollow">
 <title>Can we build an ML Trading Bot in a 100 lines of code? (Part 1) | AJ</title>
 <meta name="keywords" content="Python, Alpaca, Machine Learning, Data Science, Quant Finance">
 <meta name="description" content="I build a trading bot using a simple ML strategy in a 100 lines of code">
 <meta name="author" content="AJ">
-<link rel="canonical" href="https://ajsquestions.github.io/q1/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.bdd47e00ead4abd892bc9367eedac154576eec460a81fd8bbebb70986f95ee80.css" integrity="sha256-vdR&#43;AOrUq9iSvJNn7trBVFdu7EYKgf2LvrtwmG&#43;V7oA=" rel="preload stylesheet" as="style">
+<link rel="canonical" href="http://localhost:1313/q1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cd68a46ef23f05a546f30e51a6483e028cf33fc81c7b6a67b0e6c65f423a1b7f.css" integrity="sha256-zWikbvI/BaVG8w5Rpkg&#43;AozzP8gce2pnsObGX0I6G38=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="https://ajsquestions.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://ajsquestions.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://ajsquestions.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://ajsquestions.github.io/apple-touch-icon.png">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
 
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://ajsquestions.github.io/q1/">
+<meta name="theme-color" content="#0c0a09">
+<meta name="msapplication-TileColor" content="#d97706">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/q1/">
 <noscript>
     <style>
         #theme-toggle,
@@ -32,9 +35,10 @@
 </noscript><meta property="og:title" content="Can we build an ML Trading Bot in a 100 lines of code? (Part 1)" />
 <meta property="og:description" content="I build a trading bot using a simple ML strategy in a 100 lines of code" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ajsquestions.github.io/q1/" /><meta property="article:section" content="questions" />
+<meta property="og:url" content="http://localhost:1313/q1/" /><meta property="article:section" content="questions" />
 <meta property="article:published_time" content="2024-01-04T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-01-04T00:00:00+00:00" />
+
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Can we build an ML Trading Bot in a 100 lines of code? (Part 1)"/>
@@ -50,13 +54,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Questions",
-      "item": "https://ajsquestions.github.io/questions/"
+      "item": "http://localhost:1313/questions/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Can we build an ML Trading Bot in a 100 lines of code? (Part 1)",
-      "item": "https://ajsquestions.github.io/q1/"
+      "item": "http://localhost:1313/q1/"
     }
   ]
 }
@@ -71,7 +75,7 @@
   "keywords": [
     "Python", "Alpaca", "Machine Learning", "Data Science", "Quant Finance"
   ],
-  "articleBody": "Building an ML Trade Bot from Scratch In a 100 lines of code The world of financial trading is complex; it requires thorough knowledge of a number of practical aspects of the trade cycle to successfully run a strategy.\nIn this project, I tried to make trading as simple as running a cell in a Jupyter notebook.\nOf course there was systematic thought involved in building the bot, but the idea wasn’t to develop a sophisticated strategy, rather, to develop A strategy FAST.\n1. The Data But first…\n1.1 Alpaca Alpaca is an API first broker that allows you to trade and maintain your portfolio using their python REST API. I used Alpaca as my broker and obtained API-keys for my paper trading account on Alpaca, as with any other SaaS.\n1.2 Universe I chose my universe of assets to be approximately 200 US ETFs chosen from a larger universe of 4000+ listed US ETFs. The criterion of selection was a threshold on the volume weighted average price having a mean of larger than a 100 in the past month. The volume weighted average price is a proxy measure for the liquidity of the asset. I preferred to deal with highly liquid ETFs.\nThe list of 4000+ tickers was pulled from the data vendor 12Data. They maintain an API endpoint for all 13000+ ETFs listed on all major exchanges in the world!\nThis is however, a matter of discretion, and not science, and one is free to choose the universe in any other way they desire, without changing the approach. It could be stocks, bonds, options, currency, crypto, or other alternatives.\n1.3 OLHCV Data With our universe determined, I now pull data for the last 8 years in the following manner:\nInstall and import libraries import numpy as np import pandas as pd from alpaca_trade_api.rest import REST, TimeFrame from ta import add_all_ta_features # to add technical features from datetime import datetime, timedelta from tqdm.auto import tqdm # to create a progress bar for loops from sklearn.tree import DecisionTreeClassifier import warnings warnings.filterwarnings(\"ignore\") Declare your Alpaca API Keys api = REST(key_id=\"YOUR-API-KEY\", secret_key=\"YOUR-SECRTE-KEY\", base_url=\"https://paper-api.alpaca.markets\", api_version=\"v2\") Import file of tickers in universe (here, ETF universe) us_etfs = pd.read_csv(\"YOUR-UNIVERSE.csv\") Set up data strcutures to store: symbols to buy symbols to sell last close prices of symbols to buy returns of symbols to buy symbols_to_buy = [] symbols_to_sell = [] price = pd.DataFrame() rets = pd.DataFrame() Determine training period using the datetime module current_time = datetime.now() tomorrow = current_time + timedelta(days=1) yesterday = current_time - timedelta(days=1) end = yesterday.strftime('%Y-%m-%d') years = 8 start = current_time.replace(year=current_time.year - years).strftime('%Y-%m-%d') Pull OLHCV bar data from Alpaca API We do this in a loop but the general format is: bars = api.get_bars(\"SYMBOL\", TimeFrame.Day, start, end) if len(bars) == 0: continue else: df = bars.df The last bit of code (if-else statement) just makes sure our dataframe isn’t empty due to errors like the security not actively trading for any period in our 8 year window.\n2. Features and Split 2.1 Adding Features With OLHCV data now pulled, we add all possible technical indicators from the library TA-lib using their python wrapper. Technical Indicators are derived from market data and serve as features to predict price movements.\nWe do the following next:\nStore price data of all tickers in the universe in our price dataframe. This will be of use to us later. price[symbol] = df['close'] Add all technical indicators to the dataframe with the TA-Lib module. Here, the functions bfill() and ffill() impute NaNs and missing values in the indicators. Of course we could impute these values with the mean or median, or create a probability distribution and sample from it, or even create an ML model to impute missing values. However, for simplicity, we stick to backward and forward filling. df = add_all_ta_features(df, open=\"open\", high=\"high\", low=\"low\", close=\"close\", volume=\"volume\").bfill().ffill() The log returns for each security is calculated and stored for later use. We also define our signal. This is the value that we will try to predict by building an ML model. The hi_lo_signal simply flags the days when the return was positive with a 1, and days where returns were negative remain 0. df['ret'] = np.log(df.close) - np.log(df.close.shift(1)) rets[symbol] = df['ret'] df['hi_lo_signal'] = np.where(df.ret\u003e0,1,0) 2.2 Splitting Dataset in Train and Test Sets We can now split the data into train and test sets, as is the convention in machine learning, to build a model. We use the train set to build a model, and the test set to evaluate it. We set our train period to all years prior to (and including) 2022, while our test period as all years after 2022 (starting 2023).\nWe want to predict the hi_lo_signal defined earlier, hence, we define this as our target variable y. We drop this column from the rest of the data and define these features for the prediciton of the hi_lo_signal to be X. Note that we shift the data to avoid a forward looking bias.\ntrain = df[df.index.year \u003c= 2022] test = df[df.index.year \u003e 2022] X_train = train.drop(columns=['hi_lo_signal']).shift(1).dropna().reset_index(drop=True) y_train = train['hi_lo_signal'][2:] X_test = test.drop(columns=['hi_lo_signal']).shift(1).dropna().reset_index(drop=True) y_test = test['hi_lo_signal'][1:] assert X_train.shape[0] == y_train.shape[0] 3. The Alpha Model The Alpha model is the most important aspect of a trading strategy. It gives us incentive to actively manage a portfolio instead of just holding a portfolio of index funds for life i.e., it gives us the excess return beyond what the market returns.\nHere, our alpha model simply tries to predict the hi_lo_signal, which in other words, is trying to predict which securities will rise in value in the next day. I choose a decision tree classifier as my model after backtesting a whole host of linear, regularized, non-parametric, and ensemble methods. One is free to choose any model they prefer. I also avoid parameter tuning as this makes the program extensively long with marginal gain in accuracy.\ntry: clf = DecisionTreeClassifier(max_depth=10, random_state=42) clf = clf.fit(X_train, y_train) y_preds = clf.predict(X_test) if y_preds[-1] == 1: symbols_to_buy.append(symbol) else: symbols_to_sell.append(symbol) except: continue 4. Conclusion Our alpha model has now created signals for which securities it expects to rise in price, thus providing a positive return, and in turn, a long signal. The securities that the model expects to drop in price over the next day form the short signal. We can now easily create a portfolio that is long the securities to buy, and short the securities to sell. However, how do we decide the quantities to buy for each security? We discuss this and other portfolio and risk management techniques in the next post. Stay tuned!\nThe full code for the data and alpha modules is as follows:\nimport numpy as np import pandas as pd from alpaca_trade_api.rest import REST, TimeFrame from ta import add_all_ta_features from datetime import datetime, timedelta from tqdm.auto import tqdm from sklearn.tree import DecisionTreeClassifier import warnings warnings.filterwarnings(\"ignore\") api = REST(key_id=\"YOUR-API-KEY\", secret_key=\"YOUR-SECRET-KEY\", base_url=\"https://paper-api.alpaca.markets\", api_version='v2') us_etfs = pd.read_csv(\"YOUR-UNIVERSE\") symbols_to_buy = [] symbols_to_sell = [] price = pd.DataFrame() rets = pd.DataFrame() current_time = datetime.now() tomorrow = current_time + timedelta(days=1) yesterday = current_time - timedelta(days=1) # end = current_time.strftime('%Y-%m-%d') end = yesterday.strftime('%Y-%m-%d') years = 3 start = current_time.replace(year=current_time.year - years).strftime('%Y-%m-%d') for symbol in tqdm(us_etfs['symbol']): bars = api.get_bars(symbol, TimeFrame.Day, start, end) if len(bars) == 0: continue else: df = bars.df price[symbol] = df['close'] df = add_all_ta_features(df, open=\"open\", high=\"high\", low=\"low\", close=\"close\", volume=\"volume\").bfill().ffill() df['ret'] = np.log(df.close) - np.log(df.close.shift(1)) rets[symbol] = df['ret'] df['hi_lo_signal'] = np.where(df.ret\u003e0,1,0) train = df[df.index.year \u003c= 2022] test = df[df.index.year \u003e 2022] X_train = train.drop(columns=['hi_lo_signal']).shift(1).dropna().reset_index(drop=True) y_train = train['hi_lo_signal'][2:] X_test = test.drop(columns=['hi_lo_signal']).shift(1).dropna().reset_index(drop=True) y_test = test['hi_lo_signal'][1:] assert X_train.shape[0] == y_train.shape[0] try: clf = DecisionTreeClassifier(max_depth=10, random_state=42) clf = clf.fit(X_train, y_train) y_preds = clf.predict(X_test) if y_preds[-1] == 1: symbols_to_buy.append(symbol) else: symbols_to_sell.append(symbol) except: continue ",
+  "articleBody": "Building an ML Trade Bot from Scratch In a 100 lines of code The world of financial trading is complex; it requires thorough knowledge of a number of practical aspects of the trade cycle to successfully run a strategy.\nIn this project, I tried to make trading as simple as running a cell in a Jupyter notebook.\nOf course there was systematic thought involved in building the bot, but the idea wasn’t to develop a sophisticated strategy, rather, to develop A strategy FAST.\n1. The Data But first…\n1.1 Alpaca Alpaca is an API first broker that allows you to trade and maintain your portfolio using their python REST API. I used Alpaca as my broker and obtained API-keys for my paper trading account on Alpaca, as with any other SaaS.\n1.2 Universe I chose my universe of assets to be approximately 200 US ETFs chosen from a larger universe of 4000+ listed US ETFs. The criterion of selection was a threshold on the volume weighted average price having a mean of larger than a 100 in the past month. The volume weighted average price is a proxy measure for the liquidity of the asset. I preferred to deal with highly liquid ETFs.\nThe list of 4000+ tickers was pulled from the data vendor 12Data. They maintain an API endpoint for all 13000+ ETFs listed on all major exchanges in the world!\nThis is however, a matter of discretion, and not science, and one is free to choose the universe in any other way they desire, without changing the approach. It could be stocks, bonds, options, currency, crypto, or other alternatives.\n1.3 OLHCV Data With our universe determined, I now pull data for the last 8 years in the following manner:\nInstall and import libraries import numpy as np import pandas as pd from alpaca_trade_api.rest import REST, TimeFrame from ta import add_all_ta_features # to add technical features from datetime import datetime, timedelta from tqdm.auto import tqdm # to create a progress bar for loops from sklearn.tree import DecisionTreeClassifier import warnings warnings.filterwarnings(\"ignore\") Declare your Alpaca API Keys api = REST(key_id=\"YOUR-API-KEY\", secret_key=\"YOUR-SECRTE-KEY\", base_url=\"https://paper-api.alpaca.markets\", api_version=\"v2\") Import file of tickers in universe (here, ETF universe) us_etfs = pd.read_csv(\"YOUR-UNIVERSE.csv\") Set up data structures to store: symbols to buy symbols to sell last close prices of symbols to buy returns of symbols to buy symbols_to_buy = [] symbols_to_sell = [] price = pd.DataFrame() rets = pd.DataFrame() Determine training period using the datetime module current_time = datetime.now() tomorrow = current_time + timedelta(days=1) yesterday = current_time - timedelta(days=1) end = yesterday.strftime('%Y-%m-%d') years = 8 start = current_time.replace(year=current_time.year - years).strftime('%Y-%m-%d') Pull OLHCV bar data from Alpaca API We do this in a loop but the general format is: bars = api.get_bars(\"SYMBOL\", TimeFrame.Day, start, end) if len(bars) == 0: continue else: df = bars.df The last bit of code (if-else statement) just makes sure our dataframe isn’t empty due to errors like the security not actively trading for any period in our 8 year window.\n2. Features and Split 2.1 Adding Features With OLHCV data now pulled, we add all possible technical indicators from the library TA-lib using their python wrapper. Technical Indicators are derived from market data and serve as features to predict price movements.\nWe do the following next:\nStore price data of all tickers in the universe in our price dataframe. This will be of use to us later. price[symbol] = df['close'] Add all technical indicators to the dataframe with the TA-Lib module. Here, the functions bfill() and ffill() impute NaNs and missing values in the indicators. Of course we could impute these values with the mean or median, or create a probability distribution and sample from it, or even create an ML model to impute missing values. However, for simplicity, we stick to backward and forward filling. df = add_all_ta_features(df, open=\"open\", high=\"high\", low=\"low\", close=\"close\", volume=\"volume\").bfill().ffill() The log returns for each security is calculated and stored for later use. We also define our signal. This is the value that we will try to predict by building an ML model. The hi_lo_signal simply flags the days when the return was positive with a 1, and days where returns were negative remain 0. df['ret'] = np.log(df.close) - np.log(df.close.shift(1)) rets[symbol] = df['ret'] df['hi_lo_signal'] = np.where(df.ret\u003e0,1,0) 2.2 Splitting Dataset in Train and Test Sets We can now split the data into train and test sets, as is the convention in machine learning, to build a model. We use the train set to build a model, and the test set to evaluate it. We set our train period to all years prior to (and including) 2022, while our test period as all years after 2022 (starting 2023).\nWe want to predict the hi_lo_signal defined earlier, hence, we define this as our target variable y. We drop this column from the rest of the data and define these features for the prediction of the hi_lo_signal to be X. Note that we shift the data to avoid a forward looking bias.\ntrain = df[df.index.year \u003c= 2022] test = df[df.index.year \u003e 2022] X_train = train.drop(columns=['hi_lo_signal']).shift(1).dropna().reset_index(drop=True) y_train = train['hi_lo_signal'][2:] X_test = test.drop(columns=['hi_lo_signal']).shift(1).dropna().reset_index(drop=True) y_test = test['hi_lo_signal'][1:] assert X_train.shape[0] == y_train.shape[0] 3. The Alpha Model The Alpha model is the most important aspect of a trading strategy. It gives us incentive to actively manage a portfolio instead of just holding a portfolio of index funds for life i.e., it gives us the excess return beyond what the market returns.\nHere, our alpha model simply tries to predict the hi_lo_signal, which in other words, is trying to predict which securities will rise in value in the next day. I choose a decision tree classifier as my model after backtesting a whole host of linear, regularized, non-parametric, and ensemble methods. One is free to choose any model they prefer. I also avoid parameter tuning as this makes the program extensively long with marginal gain in accuracy.\ntry: clf = DecisionTreeClassifier(max_depth=10, random_state=42) clf = clf.fit(X_train, y_train) y_preds = clf.predict(X_test) if y_preds[-1] == 1: symbols_to_buy.append(symbol) else: symbols_to_sell.append(symbol) except: continue 4. Conclusion Our alpha model has now created signals for which securities it expects to rise in price, thus providing a positive return, and in turn, a long signal. The securities that the model expects to drop in price over the next day form the short signal. We can now easily create a portfolio that is long the securities to buy, and short the securities to sell. However, how do we decide the quantities to buy for each security? We discuss this and other portfolio and risk management techniques in the next post. Stay tuned!\nThe full code for the data and alpha modules is as follows:\nimport numpy as np import pandas as pd from alpaca_trade_api.rest import REST, TimeFrame from ta import add_all_ta_features from datetime import datetime, timedelta from tqdm.auto import tqdm from sklearn.tree import DecisionTreeClassifier import warnings warnings.filterwarnings(\"ignore\") api = REST(key_id=\"YOUR-API-KEY\", secret_key=\"YOUR-SECRET-KEY\", base_url=\"https://paper-api.alpaca.markets\", api_version='v2') us_etfs = pd.read_csv(\"YOUR-UNIVERSE\") symbols_to_buy = [] symbols_to_sell = [] price = pd.DataFrame() rets = pd.DataFrame() current_time = datetime.now() tomorrow = current_time + timedelta(days=1) yesterday = current_time - timedelta(days=1) # end = current_time.strftime('%Y-%m-%d') end = yesterday.strftime('%Y-%m-%d') years = 3 start = current_time.replace(year=current_time.year - years).strftime('%Y-%m-%d') for symbol in tqdm(us_etfs['symbol']): bars = api.get_bars(symbol, TimeFrame.Day, start, end) if len(bars) == 0: continue else: df = bars.df price[symbol] = df['close'] df = add_all_ta_features(df, open=\"open\", high=\"high\", low=\"low\", close=\"close\", volume=\"volume\").bfill().ffill() df['ret'] = np.log(df.close) - np.log(df.close.shift(1)) rets[symbol] = df['ret'] df['hi_lo_signal'] = np.where(df.ret\u003e0,1,0) train = df[df.index.year \u003c= 2022] test = df[df.index.year \u003e 2022] X_train = train.drop(columns=['hi_lo_signal']).shift(1).dropna().reset_index(drop=True) y_train = train['hi_lo_signal'][2:] X_test = test.drop(columns=['hi_lo_signal']).shift(1).dropna().reset_index(drop=True) y_test = test['hi_lo_signal'][1:] assert X_train.shape[0] == y_train.shape[0] try: clf = DecisionTreeClassifier(max_depth=10, random_state=42) clf = clf.fit(X_train, y_train) y_preds = clf.predict(X_test) if y_preds[-1] == 1: symbols_to_buy.append(symbol) else: symbols_to_sell.append(symbol) except: continue ",
   "wordCount" : "1274",
   "inLanguage": "en",
   "datePublished": "2024-01-04T00:00:00Z",
@@ -82,14 +86,14 @@
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://ajsquestions.github.io/q1/"
+    "@id": "http://localhost:1313/q1/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "AJ",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://ajsquestions.github.io/favicon.ico"
+      "url": "http://localhost:1313/favicon.ico"
     }
   }
 }
@@ -131,9 +135,9 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://ajsquestions.github.io/" accesskey="h" title="AJ">
+            <a href="http://localhost:1313/" accesskey="h" title="AJ">
              
-                <img src="https://ajsquestions.github.io/favicon-16x16" alt="" aria-label="logo"
+                <img src="http://localhost:1313/favicon-16x16.png" alt="" aria-label="logo"
                     height="18"
                     width="18">AJ</a>
             <div class="logo-switches">
@@ -143,27 +147,27 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="https://ajsquestions.github.io/about/" title="About">
+                <a href="http://localhost:1313/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="https://ajsquestions.github.io/research/" title="Research">
+                <a href="http://localhost:1313/research/" title="Research">
                     <span>Research</span>
                 </a>
             </li>
             <li>
-                <a href="https://ajsquestions.github.io/blog/" title="Questions">
+                <a href="http://localhost:1313/blog/" title="Questions">
                     <span>Questions</span>
                 </a>
             </li>
             <li>
-                <a href="https://ajsquestions.github.io/contact/" title="Connect">
+                <a href="http://localhost:1313/contact/" title="Connect">
                     <span>Connect</span>
                 </a>
             </li>
             <li>
-                <a href="https://ajsquestions.github.io/tags/" title="Tags">
+                <a href="http://localhost:1313/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
@@ -179,8 +183,8 @@
     <h1 class="post-title">
       Can we build an ML Trading Bot in a 100 lines of code? (Part 1)
     </h1>
-
-    <div class="post-meta">&lt;span title=&#39;2024-01-04 00:00:00 &#43;0000 UTC&#39;&gt;January 2024&lt;/span&gt;&amp;nbsp;&amp;middot;&amp;nbsp;AJ
+    <div class="post-meta">
+<div class="post-meta-items"><span class="meta-date">January 2024</span><span class="meta-separator">·</span><span class="meta-author">AJ</span></div>
 
 </div>
   </header> 
@@ -223,7 +227,7 @@ warnings.filterwarnings("ignore")</code></pre>
 </ol>
 <pre><code>us_etfs = pd.read_csv("YOUR-UNIVERSE.csv")</code></pre>
 <ol start="4">
-<li>Set up data strcutures to store:
+<li>Set up data structures to store:
 <ul>
 <li>symbols to buy</li>
 <li>symbols to sell</li>
@@ -275,7 +279,7 @@ rets[symbol] = df['ret']
 df['hi_lo_signal'] = np.where(df.ret>0,1,0)</code></pre>
 <h4 id="22-splitting-dataset-in-train-and-test-sets">2.2 Splitting Dataset in Train and Test Sets<a hidden class="anchor" aria-hidden="true" href="#22-splitting-dataset-in-train-and-test-sets">#</a></h4>
 <p>We can now split the data into train and test sets, as is the convention in machine learning, to build a model. We use the train set to build a model, and the test set to evaluate it. We set our train period to all years prior to (and including) 2022, while our test period as all years after 2022 (starting 2023).</p>
-<p>We want to predict the hi_lo_signal defined earlier, hence, we define this as our target variable y. We drop this column from the rest of the data and define these features for the prediciton of the hi_lo_signal to be X. Note that we shift the data to avoid a forward looking bias.</p>
+<p>We want to predict the hi_lo_signal defined earlier, hence, we define this as our target variable y. We drop this column from the rest of the data and define these features for the prediction of the hi_lo_signal to be X. Note that we shift the data to avoid a forward looking bias.</p>
 <pre><code>train = df[df.index.year <= 2022]
 test = df[df.index.year > 2022]
 X_train = train.drop(columns=['hi_lo_signal']).shift(1).dropna().reset_index(drop=True)
@@ -376,16 +380,15 @@ for symbol in tqdm(us_etfs['symbol']):
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://ajsquestions.github.io/tags/python/">Python</a></li>
-      <li><a href="https://ajsquestions.github.io/tags/alpaca/">Alpaca</a></li>
-      <li><a href="https://ajsquestions.github.io/tags/machine-learning/">Machine Learning</a></li>
-      <li><a href="https://ajsquestions.github.io/tags/data-science/">Data Science</a></li>
-      <li><a href="https://ajsquestions.github.io/tags/quant-finance/">Quant Finance</a></li>
+      <li><a href="http://localhost:1313/tags/python/">Python</a></li>
+      <li><a href="http://localhost:1313/tags/alpaca/">Alpaca</a></li>
+      <li><a href="http://localhost:1313/tags/machine-learning/">Machine Learning</a></li>
+      <li><a href="http://localhost:1313/tags/data-science/">Data Science</a></li>
+      <li><a href="http://localhost:1313/tags/quant-finance/">Quant Finance</a></li>
     </ul>
   </footer>
 </article>
     </main>
-    
 
 <script>
     let menu = document.getElementById('menu')

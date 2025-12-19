@@ -2,137 +2,137 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ajsquestions.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/alpaca/</loc>
+    <loc>http://localhost:1313/tags/alpaca/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/q1/</loc>
+    <loc>http://localhost:1313/q1/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/data-science/</loc>
+    <loc>http://localhost:1313/tags/data-science/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/machine-learning/</loc>
+    <loc>http://localhost:1313/tags/machine-learning/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/python/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/quant-finance/</loc>
+    <loc>http://localhost:1313/tags/quant-finance/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/questions/</loc>
+    <loc>http://localhost:1313/questions/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/innovation-econometrics/</loc>
+    <loc>http://localhost:1313/tags/innovation-econometrics/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/liquidity-risk-premium/</loc>
+    <loc>http://localhost:1313/tags/liquidity-risk-premium/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/portfolio-optimization/</loc>
+    <loc>http://localhost:1313/tags/portfolio-optimization/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/research/</loc>
+    <loc>http://localhost:1313/research/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/r1/</loc>
+    <loc>http://localhost:1313/r1/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2022-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/c&#43;&#43;/</loc>
+    <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
     <lastmod>2022-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/about/education/</loc>
+    <loc>http://localhost:1313/about/education/</loc>
     <lastmod>2022-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/eviews/</loc>
+    <loc>http://localhost:1313/tags/eviews/</loc>
     <lastmod>2022-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/e2/</loc>
+    <loc>http://localhost:1313/e2/</loc>
     <lastmod>2022-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/options-pricing/</loc>
+    <loc>http://localhost:1313/tags/options-pricing/</loc>
     <lastmod>2022-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/w1/</loc>
+    <loc>http://localhost:1313/w1/</loc>
     <lastmod>2022-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/numerical-methods/</loc>
+    <loc>http://localhost:1313/tags/numerical-methods/</loc>
     <lastmod>2022-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/about/work_experience/</loc>
+    <loc>http://localhost:1313/about/work_experience/</loc>
     <lastmod>2022-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/sql/</loc>
+    <loc>http://localhost:1313/tags/sql/</loc>
     <lastmod>2022-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/pca/</loc>
+    <loc>http://localhost:1313/tags/pca/</loc>
     <lastmod>2021-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/w2/</loc>
+    <loc>http://localhost:1313/w2/</loc>
     <lastmod>2021-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/computer-vision/</loc>
+    <loc>http://localhost:1313/tags/computer-vision/</loc>
     <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/w3/</loc>
+    <loc>http://localhost:1313/w3/</loc>
     <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/nlp/</loc>
+    <loc>http://localhost:1313/tags/nlp/</loc>
     <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/e3/</loc>
+    <loc>http://localhost:1313/e3/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/r/</loc>
+    <loc>http://localhost:1313/tags/r/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/information-assymetery/</loc>
+    <loc>http://localhost:1313/tags/information-asymmetry/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/p2p-credit-lending/</loc>
+    <loc>http://localhost:1313/tags/p2p-credit-lending/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/r2/</loc>
+    <loc>http://localhost:1313/r2/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/zillow/</loc>
+    <loc>http://localhost:1313/tags/zillow/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/calculus/</loc>
+    <loc>http://localhost:1313/tags/calculus/</loc>
     <lastmod>2020-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/linear-algebra/</loc>
+    <loc>http://localhost:1313/tags/linear-algebra/</loc>
     <lastmod>2020-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/standardized-tests/</loc>
+    <loc>http://localhost:1313/tags/standardized-tests/</loc>
     <lastmod>2020-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/about/test_scores/</loc>
+    <loc>http://localhost:1313/about/test_scores/</loc>
     <lastmod>2020-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/w4/</loc>
+    <loc>http://localhost:1313/w4/</loc>
     <lastmod>2020-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/ai-methods-for-microgrid-management/</loc>
+    <loc>http://localhost:1313/tags/ai-methods-for-microgrid-management/</loc>
     <lastmod>2020-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/r4/</loc>
+    <loc>http://localhost:1313/r4/</loc>
     <lastmod>2020-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/r3/</loc>
+    <loc>http://localhost:1313/r3/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/time-series-modeling/</loc>
+    <loc>http://localhost:1313/tags/time-series-modeling/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

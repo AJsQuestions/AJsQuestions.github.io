@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Numerical Methods on AJ</title>
-    <link>https://ajsquestions.github.io/tags/numerical-methods/</link>
+    <link>http://localhost:1313/tags/numerical-methods/</link>
     <description>Recent content in Numerical Methods on AJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ajsquestions.github.io/tags/numerical-methods/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/numerical-methods/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Derivatives Strategy Analyst Intern</title>
-      <link>https://ajsquestions.github.io/w1/</link>
+      <link>http://localhost:1313/w1/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ajsquestions.github.io/w1/</guid>
-      <description>ABCDEFGHEHE</description>
+      <guid>http://localhost:1313/w1/</guid>
+      <description>Financial Data Science, Volatility Econometrics, Numerical Options Pricing</description>
     </item>
     
     <item>
       <title>Quantitative Analyst and Software Engineer Intern</title>
-      <link>https://ajsquestions.github.io/w4/</link>
+      <link>http://localhost:1313/w4/</link>
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ajsquestions.github.io/w4/</guid>
-      <description>ABCDEFGHEHE</description>
+      <guid>http://localhost:1313/w4/</guid>
+      <description>Financial Data Science, Tail Risk, Startup</description>
     </item>
     
   </channel>

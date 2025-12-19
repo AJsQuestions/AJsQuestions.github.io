@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>P2P Credit Lending on AJ</title>
-    <link>https://ajsquestions.github.io/tags/p2p-credit-lending/</link>
+    <link>http://localhost:1313/tags/p2p-credit-lending/</link>
     <description>Recent content in P2P Credit Lending on AJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ajsquestions.github.io/tags/p2p-credit-lending/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/p2p-credit-lending/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research Assistant</title>
-      <link>https://ajsquestions.github.io/r2/</link>
+      <link>http://localhost:1313/r2/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ajsquestions.github.io/r2/</guid>
-      <description>bipdbeip3ubcpeicp</description>
+      <guid>http://localhost:1313/r2/</guid>
+      <description>Prof. Dacheng Xiu - Econometrics and Statistics</description>
     </item>
     
   </channel>

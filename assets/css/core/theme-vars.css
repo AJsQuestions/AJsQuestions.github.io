@@ -1,52 +1,107 @@
 :root {
     --gap: 24px;
-    --content-gap: 20px;
+    --content-gap: 22px;
     --nav-width: 1024px;
-    --main-width: 720px;
-    --header-height: 44px;
+    --main-width: 780px;
+    --header-height: 64px;
     --footer-height: 70px;
-    --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
-    --gray: rgb(165, 165, 165);
-    --content: rgb(30, 30, 30);
-    --hljs-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
-    --darkpurple: #8e7bd0;
-    --midpurple:#c0b5e5;
-    --lightpurple: #e5e1f4;
-    --semibold: 500;
+    --radius: 16px;
+    --radius-sm: 10px;
+    
+    /* Light theme - warm ivory with deep accents */
+    --theme: #fffbf5;
+    --theme-rgb: 255, 251, 245;
+    --entry: #ffffff;
+    --primary: #1c1917;
+    --secondary: #57534e;
+    --tertiary: #f5f0eb;
+    --gray: #a8a29e;
+    --content: #44403c;
+    --hljs-bg: #1c1917;
+    --code-bg: #faf5f0;
+    --border: #e7e0d9;
+    
+    /* Accent colors - warm coral/amber gradient system */
+    --accent: #d97706;
+    --accent-secondary: #dc2626;
+    --accent-light: #fbbf24;
+    --accent-soft: rgba(217, 119, 6, 0.12);
+    --accent-glow: rgba(217, 119, 6, 0.25);
+    
+    /* Gradient accents */
+    --gradient-accent: linear-gradient(135deg, #d97706 0%, #dc2626 50%, #9333ea 100%);
+    --gradient-subtle: linear-gradient(135deg, rgba(217, 119, 6, 0.1) 0%, rgba(220, 38, 38, 0.08) 100%);
+    --gradient-hero: radial-gradient(ellipse at top right, rgba(217, 119, 6, 0.15) 0%, transparent 50%),
+                     radial-gradient(ellipse at bottom left, rgba(147, 51, 234, 0.1) 0%, transparent 50%);
+    
+    /* Typography - distinctive font stack */
+    --font-sans: 'Satoshi', 'General Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-display: 'Clash Display', 'Cabinet Grotesk', 'Satoshi', sans-serif;
+    --font-mono: 'Berkeley Mono', 'JetBrains Mono', 'SF Mono', monospace;
+    
+    --semibold: 600;
     --homesize: 16px;
-    --textsize: 18px;
-    --h1size: 25px;
+    --textsize: 17px;
+    --h1size: 30px;
     --entrysize: 15px;
-    --headersize: 16px;
+    --headersize: 14px;
     --footersize: 13px;
-    --lineheight: 1.45;
+    --lineheight: 1.7;
     --lineclamp: 8;
     --marginleft: 26px;
+    
+    /* Enhanced shadows with color tints */
+    --shadow-sm: 0 1px 3px 0 rgba(28, 25, 23, 0.04), 0 1px 2px -1px rgba(28, 25, 23, 0.04);
+    --shadow: 0 4px 12px -2px rgba(28, 25, 23, 0.08), 0 2px 4px -2px rgba(28, 25, 23, 0.04);
+    --shadow-md: 0 12px 32px -8px rgba(28, 25, 23, 0.12), 0 4px 8px -4px rgba(28, 25, 23, 0.06);
+    --shadow-lg: 0 24px 48px -12px rgba(28, 25, 23, 0.16);
+    --shadow-glow: 0 0 40px var(--accent-glow);
+    --shadow-accent: 0 8px 24px -4px rgba(217, 119, 6, 0.3);
+    
+    /* Transitions with custom easing */
+    --transition-fast: 150ms cubic-bezier(0.22, 1, 0.36, 1);
+    --transition: 280ms cubic-bezier(0.22, 1, 0.36, 1);
+    --transition-slow: 400ms cubic-bezier(0.22, 1, 0.36, 1);
+    --transition-spring: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .dark {
-    --theme: rgb(29, 30, 32);
-    --entry: rgb(46, 46, 51);
-    --primary: rgb(218, 218, 219);
-    --secondary: rgb(155, 156, 157);
-    --tertiary: rgb(65, 66, 68);
-    --content: rgb(196, 196, 197);
-    --hljs-bg: rgb(46, 46, 51);
-    --code-bg: rgb(55, 56, 62);
-    --border: rgb(51, 51, 51);
+    --theme: #0c0a09;
+    --theme-rgb: 12, 10, 9;
+    --entry: #1c1917;
+    --primary: #fafaf9;
+    --secondary: #a8a29e;
+    --tertiary: #292524;
+    --content: #d6d3d1;
+    --hljs-bg: #1c1917;
+    --code-bg: #1c1917;
+    --border: #292524;
+    
+    /* Dark mode accent adjustments - more vibrant */
+    --accent: #f59e0b;
+    --accent-secondary: #f43f5e;
+    --accent-light: #fcd34d;
+    --accent-soft: rgba(245, 158, 11, 0.15);
+    --accent-glow: rgba(245, 158, 11, 0.3);
+    
+    --gradient-accent: linear-gradient(135deg, #f59e0b 0%, #f43f5e 50%, #a855f7 100%);
+    --gradient-subtle: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(244, 63, 94, 0.06) 100%);
+    --gradient-hero: radial-gradient(ellipse at top right, rgba(245, 158, 11, 0.12) 0%, transparent 50%),
+                     radial-gradient(ellipse at bottom left, rgba(168, 85, 247, 0.08) 0%, transparent 50%);
+    
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+    --shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.35), 0 2px 4px -2px rgba(0, 0, 0, 0.25);
+    --shadow-md: 0 12px 32px -8px rgba(0, 0, 0, 0.45), 0 4px 8px -4px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 24px 48px -12px rgba(0, 0, 0, 0.5);
+    --shadow-accent: 0 8px 24px -4px rgba(245, 158, 11, 0.35);
 }
 
 .list {
-    background: var(--code-bg);
+    background: var(--theme);
 }
 
 .dark.list {
     background: var(--theme);
 }
+
+/* Fonts loaded via head.html for better performance */

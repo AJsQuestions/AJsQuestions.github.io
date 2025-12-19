@@ -1,44 +1,113 @@
+/* Header Navigation */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(var(--theme-rgb), 0.8);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border-bottom: 1px solid var(--border);
+    transition: all var(--transition);
+}
+
+.dark .header {
+    background: rgba(var(--theme-rgb), 0.85);
+}
+
+/* Subtle gradient line at top of header */
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--gradient-accent);
+    opacity: 0.8;
+}
+
 .nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    line-height: var(--header-height);
-    background: var(--code-bg);
+    align-items: center;
+    max-width: calc(var(--nav-width) + var(--gap) * 2);
+    margin-inline: auto;
+    min-height: var(--header-height);
+    padding: 0 var(--gap);
 }
 
 .nav a {
     display: block;
-}
-
-.logo,
-#menu {
-    display: flex;
-    margin: auto var(--gap);
+    transition: all var(--transition-fast);
 }
 
 .logo {
+    display: flex;
     flex-wrap: inherit;
+    align-items: center;
 }
 
 .logo a {
-    font-size: var(--headersize);
-    font-weight: var(--semibold);
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
 }
 
-.logo a img, .logo a svg {
+.logo a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: var(--gradient-accent);
+    border-radius: 2px;
+    transition: width var(--transition);
+}
+
+.logo a:hover::after {
+    width: 100%;
+}
+
+.logo a img, 
+.logo a svg {
     display: inline;
     vertical-align: middle;
     pointer-events: none;
-    transform: translate(0, -10%);
-    border-radius: 6px;
-    margin-inline-end: 8px;
+    border-radius: 10px;
+    transition: transform var(--transition);
 }
 
+.logo a:hover img,
+.logo a:hover svg {
+    transform: rotate(-5deg) scale(1.05);
+}
+
+/* Theme Toggle Button */
 button#theme-toggle {
     font-size: 20px;
-    margin: auto 4px;
+    margin: auto 8px;
+    padding: 10px;
+    border-radius: 12px;
+    background: transparent;
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+button#theme-toggle:hover {
+    background: var(--tertiary);
+    color: var(--accent);
+    transform: rotate(15deg);
 }
 
 body.dark #moon {
@@ -50,31 +119,70 @@ body:not(.dark) #sun {
     display: none;
 }
 
+/* Menu */
 #menu {
+    display: flex;
     list-style: none;
     word-break: keep-all;
     overflow-x: auto;
     white-space: nowrap;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
 }
 
 #menu li + li {
-    margin-inline-start: var(--gap);
+    margin-inline-start: 0;
 }
 
 #menu a {
+    font-family: var(--font-sans);
     font-size: var(--headersize);
-    font-weight: 400;
+    font-weight: 500;
+    padding: 10px 16px;
+    border-radius: var(--radius-sm);
+    color: var(--secondary);
+    transition: all var(--transition-fast);
+    position: relative;
 }
 
-#menu .active {
-    border-bottom: 2px solid var(--darkpurple);
+#menu a::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--gradient-accent);
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity var(--transition);
 }
 
+#menu a span {
+    position: relative;
+    z-index: 1;
+}
+
+#menu a:hover {
+    color: var(--primary);
+    background: var(--tertiary);
+}
+
+#menu .active,
+#menu a.active {
+    color: white;
+}
+
+#menu .active::before,
+#menu a.active::before {
+    opacity: 1;
+}
+
+/* Language Switch */
 .lang-switch li,
 .lang-switch ul,
 .logo-switches {
     display: inline-flex;
     margin: auto 4px;
+    align-items: center;
 }
 
 .lang-switch {
@@ -84,10 +192,27 @@ body:not(.dark) #sun {
 
 .lang-switch a {
     margin: auto 3px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 
 .logo-switches {
     flex-wrap: inherit;
+    gap: 4px;
+}
+
+/* Mobile menu responsive adjustments */
+@media (max-width: 640px) {
+    #menu {
+        gap: 4px;
+    }
+    
+    #menu a {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+    
+    .logo a {
+        font-size: 20px;
+    }
 }

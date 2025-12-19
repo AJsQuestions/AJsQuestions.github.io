@@ -7,7 +7,7 @@ author: " "
 tags: ["Linear Algebra", "Calculus", "Standardized Tests"]
 summary: "GRE General Test, GRE Mathematics Subject Test"
 ---
-## Standaridzed Tests
+## Standardized Tests
 
 #### GRE (General)
 

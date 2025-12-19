@@ -20,7 +20,7 @@ params:
 The best way to contact me is by email:
 aryaman [dot] jena5000  [at] gmail [dot] com
 
-I am most reponsive here.
+I am most responsive here.
 Please add your name in the subject line along with your purpose. Eg. "AJ - Coffee Chat".
 
 I am also responsive on LinkedIn.

@@ -13,7 +13,7 @@ description: "AJ's Research Interests and Experience"
 + Financial Econometrics
 + FinTech and DeFi
 
-More recently developing an interest in Algoirthmic Game Theory and Mechanism Design, and it's link to Reinforcement Learning.
+More recently developing an interest in Algorithmic Game Theory and Mechanism Design, and its link to Reinforcement Learning.
 
 ## Experience
 

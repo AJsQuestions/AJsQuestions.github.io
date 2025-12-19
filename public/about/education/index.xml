@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Education on AJ</title>
-    <link>https://ajsquestions.github.io/about/education/</link>
+    <link>http://localhost:1313/about/education/</link>
     <description>Recent content in Education on AJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ajsquestions.github.io/about/education/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/about/education/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Master of Science, Financial Mathematics</title>
-      <link>https://ajsquestions.github.io/e2/</link>
+      <link>http://localhost:1313/e2/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ajsquestions.github.io/e2/</guid>
-      <description>ABCDEFGHEHE</description>
+      <guid>http://localhost:1313/e2/</guid>
+      <description>Machine Learning, Quantitative and Computational Finance, Financial Data Science</description>
     </item>
     
     <item>
       <title>Bachelor of Science, Data Science</title>
-      <link>https://ajsquestions.github.io/e3/</link>
+      <link>http://localhost:1313/e3/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ajsquestions.github.io/e3/</guid>
-      <description>ABCDEFGHEHE</description>
+      <guid>http://localhost:1313/e3/</guid>
+      <description>Mathematics, Computer Science, Statistics, Machine Learning</description>
     </item>
     
   </channel>

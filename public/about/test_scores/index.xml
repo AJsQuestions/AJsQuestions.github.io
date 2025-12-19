@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Test Scores on AJ</title>
-    <link>https://ajsquestions.github.io/about/test_scores/</link>
+    <link>http://localhost:1313/about/test_scores/</link>
     <description>Recent content in Test Scores on AJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ajsquestions.github.io/about/test_scores/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/about/test_scores/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

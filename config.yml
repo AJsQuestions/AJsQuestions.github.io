@@ -1,7 +1,9 @@
 baseURL: "https://ajsquestions.github.io/" 
 title: AJ
-paginate: 20
 theme: PaperMod
+
+pagination:
+    pagerSize: 20
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -94,7 +96,7 @@ params:
         hiddenInSingle: true
     label:
       text: "AJ"
-      icon: "/favicon-16x16"
+      icon: "/favicon-16x16.png"
       iconHeight: 18
 
 markup:

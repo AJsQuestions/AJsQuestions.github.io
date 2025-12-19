@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Questions on AJ</title>
-    <link>https://ajsquestions.github.io/questions/</link>
+    <link>http://localhost:1313/questions/</link>
     <description>Recent content in Questions on AJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ajsquestions.github.io/questions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/questions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Can we build an ML Trading Bot in a 100 lines of code? (Part 1)</title>
-      <link>https://ajsquestions.github.io/q1/</link>
+      <link>http://localhost:1313/q1/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://ajsquestions.github.io/q1/</guid>
+      <guid>http://localhost:1313/q1/</guid>
       <description>I build a trading bot using a simple ML strategy in a 100 lines of code</description>
     </item>
     
