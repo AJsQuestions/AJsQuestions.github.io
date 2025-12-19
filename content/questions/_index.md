@@ -10,7 +10,7 @@ description: "Thought experiments I think with"
 ---
 
 <!-- Constellation Map (static SVG, PaperMod-friendly; no JS) -->
-<div style="max-width: 980px; margin: 1.25rem auto 1.25rem auto;">
+<div class="constellation-map" style="max-width: 980px; margin: 2rem auto;">
 <svg viewBox="0 0 980 560" width="100%" height="auto" role="img" aria-label="A constellation map of question clusters and recurring motifs">
   <defs>
     <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
@@ -23,21 +23,23 @@ description: "Thought experiments I think with"
 
     <style>
       .bg { fill: transparent; }
-      .skyline { stroke: rgba(255,255,255,0.08); stroke-width: 1.25; }
-      .link { stroke: rgba(255,255,255,0.14); stroke-width: 1.2; }
-      .link2 { stroke: rgba(255,255,255,0.10); stroke-width: 1.0; stroke-dasharray: 3 6; }
-      .motifLink { stroke: rgba(255,255,255,0.10); stroke-width: 1.0; }
-      .motifLink2 { stroke: rgba(255,255,255,0.08); stroke-width: 0.95; stroke-dasharray: 2.5 7; }
-      .node { fill: rgba(255,255,255,0.88); }
-      .nodeDim { fill: rgba(255,255,255,0.65); }
-      .nodeCore { fill: rgba(255,255,255,0.95); }
-      .motif { fill: rgba(255,255,255,0.78); }
-      .label { fill: rgba(255,255,255,0.84); font: 600 15px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; letter-spacing: 0.2px; }
-      .sublabel { fill: rgba(255,255,255,0.55); font: 500 12.5px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
-      .tiny { fill: rgba(255,255,255,0.35); font: 500 11px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
-      .motifLabel { fill: rgba(255,255,255,0.45); font: 600 11.5px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; letter-spacing: 0.2px; }
-      .ring { fill: none; stroke: rgba(255,255,255,0.10); stroke-width: 1.0; }
+      .skyline { stroke: currentColor; stroke-width: 1.25; opacity: 0.1; }
+      .link { stroke: currentColor; stroke-width: 1.2; opacity: 0.2; }
+      .link2 { stroke: currentColor; stroke-width: 1.0; stroke-dasharray: 3 6; opacity: 0.15; }
+      .motifLink { stroke: currentColor; stroke-width: 1.0; opacity: 0.15; }
+      .motifLink2 { stroke: currentColor; stroke-width: 0.95; stroke-dasharray: 2.5 7; opacity: 0.1; }
+      .node { fill: currentColor; opacity: 0.9; }
+      .nodeDim { fill: currentColor; opacity: 0.4; }
+      .nodeCore { fill: currentColor; opacity: 0.95; }
+      .motif { fill: currentColor; opacity: 0.6; }
+      .label { fill: currentColor; font: 600 15px 'Inter', ui-sans-serif, system-ui, sans-serif; letter-spacing: 0.2px; opacity: 0.9; }
+      .sublabel { fill: currentColor; font: 500 12.5px 'Inter', ui-sans-serif, system-ui, sans-serif; opacity: 0.5; }
+      .tiny { fill: currentColor; font: 500 11px 'Inter', ui-sans-serif, system-ui, sans-serif; opacity: 0.35; }
+      .motifLabel { fill: currentColor; font: 600 11.5px 'Inter', ui-sans-serif, system-ui, sans-serif; letter-spacing: 0.2px; opacity: 0.45; }
+      .ring { fill: none; stroke: currentColor; stroke-width: 1.0; opacity: 0.1; }
       .click { cursor: pointer; }
+      .click:hover .node { opacity: 1; }
+      .click:hover .label { opacity: 1; }
     </style>
   </defs>
 

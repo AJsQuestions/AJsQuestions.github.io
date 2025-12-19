@@ -622,3 +622,22 @@ img.in-text {
     display: inline;
     margin: auto;
 }
+
+/* Constellation Map */
+.constellation-map {
+    color: var(--primary);
+}
+
+.constellation-map svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 640px) {
+    .constellation-map {
+        margin: 1.5rem -1rem;
+        width: calc(100% + 2rem);
+        max-width: none;
+    }
+}
