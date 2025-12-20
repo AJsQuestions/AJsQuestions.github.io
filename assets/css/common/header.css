@@ -58,19 +58,26 @@
 
 /* Theme Toggle Button */
 button#theme-toggle {
-    font-size: 18px;
-    margin: auto 8px;
-    padding: 12px;
-    border-radius: 50%;
-    background: transparent;
+    font-size: 16px;
+    margin-left: 12px;
+    padding: 10px;
+    border-radius: var(--radius-sm);
+    background: var(--tertiary);
+    border: 1px solid var(--border);
     transition: all var(--transition-fast);
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 button#theme-toggle:hover {
-    background: var(--tertiary);
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+button#theme-toggle:hover svg {
+    color: var(--theme);
 }
 
 body.dark #moon {
