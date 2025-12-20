@@ -89,6 +89,13 @@ body:not(.dark) #sun {
     display: none;
 }
 
+/* Nav right section - menu + toggle */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
 /* Menu - Dropdown style navigation */
 #menu {
     display: flex;
@@ -160,19 +167,34 @@ body:not(.dark) #sun {
 @media (max-width: 640px) {
     .nav {
         min-height: 64px;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 8px var(--gap);
+    }
+    
+    .nav-right {
+        width: 100%;
+        justify-content: space-between;
+        gap: 8px;
     }
     
     #menu {
         gap: 2px;
         padding: 4px;
+        flex: 1;
+        overflow-x: auto;
     }
     
     #menu a {
-        padding: 8px 12px;
-        font-size: 13px;
+        padding: 8px 10px;
+        font-size: 12px;
     }
     
     .logo a {
         font-size: 18px;
+    }
+    
+    button#theme-toggle {
+        flex-shrink: 0;
     }
 }
