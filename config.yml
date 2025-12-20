@@ -13,24 +13,21 @@ menu:
         - name: About
           url: /about/
           weight: 1
-        - name: CV
-          url: /cv/
-          weight: 2
         - name: Research
           url: /research/
-          weight: 3
+          weight: 2
         - name: Teaching
           url: /teaching/
-          weight: 4
+          weight: 3
         - name: Projects
           url: /projects/
-          weight: 5
+          weight: 4
         - name: Questions
           url: /questions/
-          weight: 6
+          weight: 5
         - name: Contact
           url: /contact/
-          weight: 7
+          weight: 6
 
 params:
     description: "Financial Data Science | PhD @ UCLA Anderson | HBS | Booth | IIM-B | MS FinMath UChicago"
@@ -67,24 +64,21 @@ params:
             - name: About
               url: /about/
               weight: 1
-            - name: CV
-              url: /AJ_CV_Sep25.pdf
-              weight: 2
             - name: Research
               url: /research/
-              weight: 3
+              weight: 2
             - name: Teaching
               url: /teaching/
-              weight: 4
+              weight: 3
             - name: Projects
               url: /projects/
-              weight: 5
+              weight: 4
             - name: Questions
               url: /questions/
-              weight: 6
+              weight: 5
             - name: Contact
               url: /contact/
-              weight: 7
+              weight: 6
     socialIcons:
         - name: CV
           url: /AJ_CV_Sep25.pdf
