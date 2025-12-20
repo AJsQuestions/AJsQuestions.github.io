@@ -3,9 +3,6 @@ title: "Questions"
 aliases: /questions
 description: "Thought experiments I think with"
 ---
-
-<small>—</small>
-
 > “The true delight is in the finding out rather than in the knowing.”  
 > <small>— Isaac Asimov</small>
 
