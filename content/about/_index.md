@@ -14,13 +14,12 @@ My path through data science, finance, and machine learning has always been moti
 
 - Research should reduce ambiguity, not inflate it
 - Build tools people can interrogate
-- Leave breadcrumbs for the next person
 
 ---
 
 ### Outside work
 
-- Turning playlists into datasets
+- Turning playlists into data
 - Clean LaTeX more than clean rooms
 - Long walks where half‑baked ideas become usable ones
 
