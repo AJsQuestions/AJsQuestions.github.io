@@ -174,4 +174,4 @@ description: "Thought experiments I think with"
 
 ---
 
-These questions evolve slowly.
+These questions evolve slowly

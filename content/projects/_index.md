@@ -25,7 +25,3 @@ Reusable Jupyter notebooks explaining:
 Originally built while TA‑ing at Chicago Booth.
 
 ---
-
-### Math Notes for Economists
-
-Dense, diagram‑heavy notes covering stochastic calculus, optimization, and probability for asset pricing. Written for people who want intuition *and* rigor.
