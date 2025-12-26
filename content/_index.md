@@ -7,7 +7,7 @@ I'm a PhD student in Finance at UCLA Anderson where I study **financial systems 
 
 ---
 
-### Current interests
+### Current Interests
 
 - Statistical Learning Theory (StatML)
 - Mathematical and Computational Finance (Quant)
