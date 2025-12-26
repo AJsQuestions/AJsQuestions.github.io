@@ -23,6 +23,9 @@
 /* Profile Image - Clean circular */
 .profile-image-wrapper {
     position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .profile img {
@@ -32,6 +35,8 @@
     box-shadow: var(--shadow-md);
     transition: all var(--transition);
     object-fit: cover;
+    width: 150px;
+    height: 150px;
 }
 
 .profile img:hover {
