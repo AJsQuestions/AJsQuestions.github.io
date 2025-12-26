@@ -34,6 +34,8 @@ Research at Harvard Business School. Synthetic control regressions to predict in
 
 Research at IIM Bangalore. Structural models of presale housing markets, quantifying risk premia and how information asymmetry shapes urban real estate.
 
+---
+
 ### Philosophy
 
 I care less about *fancy models* and more about **models that fail in informative ways**. If something breaks, I want to know where, why, and what that failure teaches us.
