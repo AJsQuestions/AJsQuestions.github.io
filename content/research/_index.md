@@ -4,7 +4,7 @@ aliases: /research
 description: "Papers and projects"
 ---
 
-### Current Interests
+### Interests
 
 - Statistical Learning Theory (StatML)
 - Mathematical and Computational Finance (Quant)
@@ -38,9 +38,3 @@ Research at Harvard Business School. Synthetic control regressions to predict in
 ### Real Estate Pricing and Presale Option Risk
 
 Research at IIM Bangalore. Structural models of presale housing markets, quantifying risk premia and how information asymmetry shapes urban real estate.
-
----
-
-### Philosophy
-
-I care less about *fancy models* and more about **models that fail in informative ways**. If something breaks, I want to know where, why, and what that failure teaches us.

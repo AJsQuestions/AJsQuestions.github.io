@@ -3,8 +3,9 @@ title: "Questions"
 aliases: /questions
 description: "Thought experiments I think with"
 ---
-> “The true delight is in the finding out rather than in the knowing.”  
-> <small>— Isaac Asimov</small>
+
+“The true delight is in the finding out rather than in the knowing.”  
+<small>— Isaac Asimov</small>
 
 ---
 
@@ -171,7 +172,3 @@ description: "Thought experiments I think with"
 - How many disagreements are really about language?
 - What changes when thinking itself is treated as a design problem?
 - Which questions only feel important in retrospect?
-
----
-
-These questions evolve slowly
