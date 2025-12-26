@@ -39,14 +39,6 @@
             <p class="profile-subtitle">{{ .subtitle | markdownify }}</p>
             {{- partial "social_icons.html" site.Params.socialIcons -}}
 
-            {{- if $.Content }}
-            <div class="profile-content">
-                {{- if not ($.Param "disableAnchoredHeadings") }}
-                {{- partial "anchored_headings.html" $.Content -}}
-                {{- else }}{{ $.Content }}{{ end }}
-            </div>
-            {{- end }}
-
             {{- with .buttons }}
             <div class="buttons">
                 {{- range . }}
