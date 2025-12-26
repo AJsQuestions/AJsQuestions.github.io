@@ -4,24 +4,22 @@ aliases: /projects
 description: "Side projects and teaching tools"
 ---
 
-Side projects are where theory meets impatience.
+Side projects are where I tinker without the pressure of publication.
 
 ---
 
 ### Spotify as a Behavioral Dataset
 
-A Python pipeline to treat my Spotify library as panel data: playlist embeddings, genre drift over time, monthly consumption dynamics. Started as curiosity, turned into a lesson on clustering and overfitting your own tastes.
+A Python pipeline that treats my Spotify library as panel data: playlist embeddings, genre drift over time, monthly consumption dynamics. It started as curiosity, turned into a crash course on clustering myself, and now doubles as a diary of how taste shifts under stress.
 
 ---
 
 ### Financial ML Teaching Notebooks
 
-Reusable Jupyter notebooks explaining:
+Reusable Jupyter notebooks that try to make the math feel grounded:
 
-- Bias–variance tradeoff *visually*
-- Why regularization feels like "belief shrinkage"
+- Visual bias–variance tradeoff
+- Regularization as a form of belief‑shrinkage
 - How factor models sneak into ML regressions
 
-Originally built while TA‑ing at Chicago Booth.
-
----
+Built while TA‑ing at Chicago Booth and iterated in real classrooms. The goal is to leave students with code they can actually remix.
