@@ -4,6 +4,11 @@ aliases: /research
 description: "Papers and projects"
 ---
 
+### Current Interests
+
+- Statistical Learning Theory (StatML)
+- Mathematical and Computational Finance (Quant)
+
 ---
 
 ### Automating Black–Litterman Beliefs with Machine Learning

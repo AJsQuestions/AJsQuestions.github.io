@@ -10,21 +10,14 @@ My path through data science, finance, and machine learning comes from a simple 
 
 ---
 
-### Current Interests
-
-- Statistical Learning Theory (StatML)
-- Mathematical and Computational Finance (Quant)
-
----
-
-### Beliefs
+## Beliefs
 
 - Research should reduce ambiguity, not inflate it
 - Build tools people can interrogate
 
 ---
 
-### Outside work
+## Outside work
 
 - Turning playlists into data because taste changes faster than I think
 - Cleaning LaTeX more than cleaning rooms
