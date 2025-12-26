@@ -23,4 +23,4 @@ I care deeply about **how technical ideas land**. If a student walks away intimi
 - Never pretend confusion is stupidity
 - Use code as a second language, not a crutch
 
-Good teaching doesn't simplify ideas—it makes complexity navigable and worth the effort.
+Good teaching doesn't simplify ideas; it makes complexity navigable and worth the effort.

@@ -4,13 +4,11 @@ aliases: /research
 description: "Papers and projects"
 ---
 
-I'm interested in how **learning, beliefs, and markets co‑evolve**. I treat machine learning as a way to generate disciplined beliefs inside economic models, not as a replacement for thinking. I like models that admit their blind spots.
-
 ---
 
 ### Automating Black–Litterman Beliefs with Machine Learning
 
-Replacing subjective investor views in Black–Litterman with structured ML‑generated beliefs.
+Replacing subjective investor views in Black–Litterman Portfolio Optimization with structured ML‑generated beliefs.
 
 - Links Bayesian portfolio theory with prediction without discarding economic intuition
 - Keeps the model transparent so you can see when the data is steering the ship
@@ -22,15 +20,19 @@ Replacing subjective investor views in Black–Litterman with structured ML‑ge
 
 ### Illiquidity, Volatility Smoothing, and Portfolio Risk
 
-Joint work from my time at Harvard Business School. We look at how illiquid assets distort volatility and expected returns, and how classical portfolio rules fail quietly when those frictions show up.
+Research at Harvard Business School. We study how illiquid assets distort volatility and expected returns, and how classical portfolio rules fail quietly when those frictions show up.
 
 ---
 
-### Real Estate Pricing and Presale Risk
+### Killer Acquisitions and Innovation in FinTech
 
-Research at IIM Bangalore (2024–2025). Structural models of presale housing markets, quantifying risk premia and how information asymmetry shapes urban real estate.
+Research at Harvard Business School. Synthetic control regressions to predict innovation throughput pre- and post-merger or acquisition for similar firms.
 
 ---
+
+### Real Estate Pricing and Presale Option Risk
+
+Research at IIM Bangalore. Structural models of presale housing markets, quantifying risk premia and how information asymmetry shapes urban real estate.
 
 ### Philosophy
 
