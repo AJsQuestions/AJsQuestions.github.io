@@ -8,7 +8,7 @@ I care deeply about **how technical ideas land**. If a student walks away intimi
 
 ---
 
-### Courses
+### Courses (TA)
 
 - Financial Econometrics
 - Decoding FinTech
