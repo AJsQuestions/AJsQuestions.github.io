@@ -2,6 +2,7 @@
 title: "Contact"
 aliases: /contact
 description: "Get in touch"
+---
 
 **Email** — aryamaan.jena.phd@anderson.ucla.edu
 
