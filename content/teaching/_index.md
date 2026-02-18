@@ -8,10 +8,10 @@ I care deeply about **how technical ideas land**. If a student walks away intimi
 
 ---
 
-### Courses (TA)
+### Courses (TA at Chicago Booth)
 
-- Financial Econometrics
-- Decoding FinTech
+- Financial Econometrics (BUSN 20820/41203)
+- Decoding FinTech (BUSN 41813)
 
 ---
 
