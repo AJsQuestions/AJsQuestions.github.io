@@ -169,8 +169,35 @@
 </header>
 <div class="post-content"><p>Where curiosity meets impatience.</p>
 <hr>
-<h3 id="spotify-as-a-behavioral-dataset">Spotify as a Behavioral Dataset</h3>
-<p>A Python pipeline that treats my Spotify library as panel data: playlist embeddings, genre drift over time, monthly consumption dynamics. It started as curiosity, turned into a crash course on clustering and scripting myself, and now doubles as a diary of how taste shifts under stress.</p>
+<h3 id="spotim8">SpotiM8</h3>
+<p>A production-grade Python pipeline that treats my Spotify library as panel data. Syncs playlists, tracks, and artist metadata into tidy DataFrames, caches everything locally in Parquet, and maintains yearly archive playlists automatically. What started as curiosity about genre drift and listening patterns became a full sync engine with cron automation, streaming history analysis, and a notebook suite that doubles as a diary of how taste shifts under stress.</p>
+<ul>
+<li>Pandas-first interface over the Spotify Web API</li>
+<li>Incremental sync with smart cache invalidation</li>
+<li>Yearly archive playlists: Finds, Top, and Discovery per year</li>
+<li>Streaming history integration from Spotify data exports</li>
+</ul>
+<p>Built because I wanted to ask questions about my own consumption data without trusting someone else&rsquo;s dashboard.</p>
+<hr>
+<h3 id="etfm8">ETFm8</h3>
+<p>An automated ETF rebalancing system that generates trading orders from momentum, volatility, and drawdown signals. Scores positions, sizes allocations, detects market regimes, and outputs limit orders with optimal pricing. Optionally plugs into Robinhood for live portfolio sync.</p>
+<ul>
+<li>Signal-driven edge scoring with configurable weights</li>
+<li>Market regime detection for risk-on/risk-off switching</li>
+<li>Optional ML layer for position sizing and edge refinement</li>
+<li>Risk management: position limits, turnover caps, cash optimization</li>
+</ul>
+<p>Born from wanting a systematic way to rebalance without pretending I can time anything.</p>
+<hr>
+<h3 id="footiem8">FootieM8</h3>
+<p>A research-grade football prediction system that combines probabilistic models (Poisson, Dixon-Coles) with machine learning (LightGBM, logistic regression) in a weighted ensemble. Covers 25+ leagues across 30+ seasons, runs walk-forward evaluation to prevent data leakage, and generates bet recommendations for Kalshi prediction markets.</p>
+<ul>
+<li>Elo ratings, form features, and bookmaker odds as inputs</li>
+<li>Ensemble of probabilistic and ML models with k-fold CV</li>
+<li>Time-aware evaluation: rolling windows, calibration metrics</li>
+<li>Automated bet generation with fuzzy team matching and risk caps</li>
+</ul>
+<p>Started as a way to test whether the models I study in class hold up when the data fights back.</p>
 <hr>
 <h3 id="financial-ml-teaching-notebooks">Financial ML Teaching Notebooks</h3>
 <p>Reusable Jupyter notebooks that try to make the math feel grounded:</p>
