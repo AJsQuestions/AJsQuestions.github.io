@@ -13,16 +13,14 @@ description: "Papers and projects"
 
 ---
 
-### When Does the Loss Function Matter? Model Class and Training Objective in ML Asset Pricing
+### Loss as Prior: Training Objectives and Pricing‑Kernel Geometry
 
-Systematically estimating five model classes under six training objectives to ask a pointed question: when you build an ML pricing kernel, does the loss function change the answer, or does the function space you search over decide it for you?
+The training loss in ML asset pricing is not a nuisance parameter — it is an implicit economic prior over which states of the world matter for constructing the pricing kernel. I construct a 41‑factor zoo spanning four model classes (Dense, Sparse, LightGBM, MLP) and eight loss configurations, using the Gu et al. (2020) panel of 94 characteristics and monthly returns (1957–2016).
 
-- 25 model‑loss factors evaluated on 3.1 million firm‑month observations (1957–2016)
-- PCA on the factor zoo reveals only 2–3 significant dimensions; factors cluster by model class, not objective
-- Within‑class return correlations above 0.95 for linear models—Ridge absorbs all six losses without flinching
-- LightGBM dominates economically (~1.75 annualized Sharpe) but diverges sharply under tail‑altering losses like MAE
-
-The punchline: model class constrains the admissible set of SDF directions; the training objective just picks a point inside it. Research effort is better spent on function class design than objective engineering.
+- Economic‑loss factors (Sharpe, Soft, Spread) dominate MSE within every architecture, with gains increasing in model flexibility: MLP +124%, LGB +24%, Ridge +3%
+- The 41‑factor zoo has 13 statistically significant principal components and jointly rejects FF6 spanning (GRS = 1,044, *p* < 0.001); all LGB factors deliver monthly alphas exceeding 1.4%
+- Nonlinear models learn genuinely different pricing directions — LGB factors are >94% orthogonal to their Ridge counterparts across all eight losses
+- KNS shrinkage concentrates the zoo from 17 to 1.4 effective dimensions; 24 of 41 factors survive the double‑LASSO pricing test
 
 *Working paper (2026)*
 
