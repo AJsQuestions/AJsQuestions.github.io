@@ -28,7 +28,7 @@ Linear asset pricing models do not merely underperform nonlinear ones — they i
 
 ### Sustainable Finance: ESG, Climate Risk, and Asset Pricing
 
-Readings and lecture for Empirical Corporate Finance (Bus 254) on the emerging sustainable finance literature. Surveyed the theoretical foundations and empirical frontiers of how externalities, heterogeneous investor preferences, and regulatory frictions interact with asset prices.
+Readings and lecture for Empirical Corporate Finance on the emerging sustainable finance literature. Surveyed the theoretical foundations and empirical frontiers of how externalities, heterogeneous investor preferences, and regulatory frictions interact with asset prices.
 
 - Covered the Starks (2023) "value vs values" framework: disentangling whether ESG affects returns through priced risk or non‑pecuniary investor demand
 - Reviewed Pedersen (2025) on sustainable finance as implicit carbon pricing — how residual externalities enter expected returns as a discount‑rate wedge when carbon taxes fall short of the social cost of carbon
