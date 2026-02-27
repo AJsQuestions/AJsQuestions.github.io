@@ -13,14 +13,14 @@ description: "Papers and projects"
 
 ---
 
-### The Geometry of Virtuous Complexity: Nonlinear Pricing Kernels and the Limits of Linear Models
+### The Geometry of Virtuous Complexity: Spectral Segregation, Shrinkage, and the Pricing Kernel
 
-Linear asset pricing models do not merely underperform nonlinear ones — they impose a false geometry on the stochastic discount factor. Constructed a 41‑factor zoo spanning six model classes (OLS, Ridge, Lasso, ElasticNet, LightGBM, MLP) and eight loss configurations on the Gu et al. (2020) panel (94 characteristics, 1957–2016) to show that nonlinearity changes the *span* of the SDF.
+When a factor zoo mixes linear and nonlinear models, the covariance matrix develops a bimodal eigenvalue spectrum — *spectral segregation*. Uniform ridge shrinkage calibrated to the joint zoo preserves high‑variance linear directions and kills lower‑variance nonlinear ones, acting as an implicit linearity prior. I prove this formally and show that block‑diagonal shrinkage respecting heterogeneous spectral structure is inadmissible‑dominant whenever the killed directions are priced.
 
-- LGB factors are >94% orthogonal to Ridge counterparts; the LGB tangency portfolio is 73% unexplained by the full linear span
-- PC3 of the zoo — 66.2% nonlinear by loading share — is significantly priced (*t* = 2.75); the nonlinear premium (1.11%/month, *t* = 2.70) nearly doubles in high‑volatility regimes
-- Three implicit priors shape SDF estimation: the loss function (which states get weight), the model architecture (which function class the kernel inhabits), and shrinkage (which directions survive)
-- KNS uniform shrinkage is itself a linearity prior; block‑diagonal shrinkage that respects spectral heterogeneity nearly doubles the out‑of‑sample Sharpe ratio
+- A 41‑factor zoo spanning six model classes and eight loss configurations on the Gu et al. (2020) panel (1957–2016) verifies every prediction of the theory
+- LGB factors are >94% orthogonal to Ridge counterparts (subspace angle 71.3°); the nonlinear premium (1.54%/month, NW *t* = 4.89) reflects convex market exposure and survives eight‑factor controls
+- Block‑diagonal shrinkage doubles the out‑of‑sample Sharpe ratio (0.24 vs 0.12); five‑fold cross‑validated HJ distances confirm the result
+- A hierarchy of priors — model class, regularization, tail sensitivity, objective engineering — organizes how each modeling choice shapes the SDF
 
 *Working paper (2026)*
 

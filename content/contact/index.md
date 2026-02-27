@@ -11,5 +11,6 @@ description: "Get in touch"
 
 ### Links
 
-	[CV (PDF)](/AJ_CV_Feb26.pdf)
-	[GitHub](https://github.com/ajsquestions)
+[CV (PDF)](/AJ_CV_Feb26.pdf)
+
+[GitHub](https://github.com/ajsquestions)
