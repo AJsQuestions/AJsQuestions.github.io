@@ -22,7 +22,7 @@ Linear asset pricing models do not merely underperform nonlinear ones — they i
 - Three implicit priors shape SDF estimation: the loss function (which states get weight), the model architecture (which function class the kernel inhabits), and shrinkage (which directions survive)
 - KNS uniform shrinkage is itself a linearity prior; block‑diagonal shrinkage that respects spectral heterogeneity nearly doubles the out‑of‑sample Sharpe ratio
 
-*Master's thesis (2026)*
+*Working paper (2026)*
 
 ---
 
