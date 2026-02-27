@@ -76,4 +76,4 @@ Summer research at the Indian Statistical Institute with Prof Tanujit Chakrabort
 
 ### Real Estate Pricing and Presale Option Risk
 
-Research at IIM Bangalore with Prof Venkatesh Panchapagesan. Structural models of presale housing markets, quantifying risk premia and how information asymmetry shapes urban real estate.
+Research at IIM Bangalore with Prof Venkatesh Panchapagesan. Structural models of presale housing markets, quantifying risk premia, and how information asymmetry shapes urban real estate.
