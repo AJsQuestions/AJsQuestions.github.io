@@ -13,16 +13,28 @@ description: "Papers and projects"
 
 ---
 
-### Loss as Prior: Training Objectives and Pricing‑Kernel Geometry
+### The Geometry of Virtuous Complexity: Nonlinear Pricing Kernels and the Limits of Linear Models
 
-The training loss in ML asset pricing is not a nuisance parameter — it is an implicit economic prior over which states of the world matter for constructing the pricing kernel. I construct a 41‑factor zoo spanning four model classes (Dense, Sparse, LightGBM, MLP) and eight loss configurations, using the Gu et al. (2020) panel of 94 characteristics and monthly returns (1957–2016).
+Linear asset pricing models do not merely underperform nonlinear ones — they impose a false geometry on the stochastic discount factor. Constructed a 41‑factor zoo spanning six model classes (OLS, Ridge, Lasso, ElasticNet, LightGBM, MLP) and eight loss configurations on the Gu et al. (2020) panel (94 characteristics, 1957–2016) to show that nonlinearity changes the *span* of the SDF.
 
-- Economic‑loss factors (Sharpe, Soft, Spread) dominate MSE within every architecture, with gains increasing in model flexibility: MLP +124%, LGB +24%, Ridge +3%
-- The 41‑factor zoo has 13 statistically significant principal components and jointly rejects FF6 spanning (GRS = 1,044, *p* < 0.001); all LGB factors deliver monthly alphas exceeding 1.4%
-- Nonlinear models learn genuinely different pricing directions — LGB factors are >94% orthogonal to their Ridge counterparts across all eight losses
-- KNS shrinkage concentrates the zoo from 17 to 1.4 effective dimensions; 24 of 41 factors survive the double‑LASSO pricing test
+- LGB factors are >94% orthogonal to Ridge counterparts; the LGB tangency portfolio is 73% unexplained by the full linear span
+- PC3 of the zoo — 66.2% nonlinear by loading share — is significantly priced (*t* = 2.75); the nonlinear premium (1.11%/month, *t* = 2.70) nearly doubles in high‑volatility regimes
+- Three implicit priors shape SDF estimation: the loss function (which states get weight), the model architecture (which function class the kernel inhabits), and shrinkage (which directions survive)
+- KNS uniform shrinkage is itself a linearity prior; block‑diagonal shrinkage that respects spectral heterogeneity nearly doubles the out‑of‑sample Sharpe ratio
 
-*Working paper (2026)*
+*Master's thesis (2026)*
+
+---
+
+### Sustainable Finance: ESG, Climate Risk, and Asset Pricing
+
+Readings and lecture for Empirical Corporate Finance (Bus 254) on the emerging sustainable finance literature. Surveyed the theoretical foundations and empirical frontiers of how externalities, heterogeneous investor preferences, and regulatory frictions interact with asset prices.
+
+- Covered the Starks (2023) "value vs values" framework: disentangling whether ESG affects returns through priced risk or non‑pecuniary investor demand
+- Reviewed Pedersen (2025) on sustainable finance as implicit carbon pricing — how residual externalities enter expected returns as a discount‑rate wedge when carbon taxes fall short of the social cost of carbon
+- Examined Giglio et al. (2025) on nature and biodiversity loss as economic state variables and a research agenda for financial economics
+
+*Lecture (2026)*
 
 ---
 
