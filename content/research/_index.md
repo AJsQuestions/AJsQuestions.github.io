@@ -2,6 +2,7 @@
 title: "Research"
 aliases: /research
 description: "Papers and projects"
+tags: ["asset-pricing", "machine-learning", "financial-econometrics"]
 ---
 
 ### Interests
@@ -13,13 +14,26 @@ description: "Papers and projects"
 
 ---
 
+### Which Directions Pay? A Geometric Theory of Model Disagreement in Asset Pricing
+
+When ML models disagree about stock returns, alignment with the stochastic discount factor predicts which deviations carry useful information. The cosine of the angle between a model's deviation vector and the SDF explains 64% of cross-model variation in deviation quality — suggesting that model disagreement is geometrically structured, not noise. This reframes ensemble construction: instead of averaging blindly, weight models by how well their unique signals align with the pricing kernel.
+
+- Built on the Gu et al. (2020) / JKP panel spanning 1957-2024 with WRDS/CRSP/Compustat data
+- Trained neural networks, gradient boosting (XGBoost, LightGBM, CatBoost), and regularized linear models on UCLA's Hoffman2 GPU cluster
+- SDF-aligned ensembles improve out-of-sample Sharpe ratios relative to equal-weight and stacking baselines
+- Connects to the spectral segregation finding: nonlinear models contribute orthogonal directions that uniform shrinkage kills
+
+*Working paper (2026) — actively developing*
+
+---
+
 ### The Geometry of Virtuous Complexity: Spectral Segregation, Shrinkage, and the Pricing Kernel
 
-When a factor zoo mixes linear and nonlinear models, the covariance matrix develops a bimodal eigenvalue spectrum — *spectral segregation*. Uniform ridge shrinkage calibrated to the joint zoo preserves high‑variance linear directions and kills lower‑variance nonlinear ones, acting as an implicit linearity prior. I prove this formally and show that block‑diagonal shrinkage respecting heterogeneous spectral structure is inadmissible‑dominant whenever the killed directions are priced.
+When a factor zoo mixes linear and nonlinear models, the covariance matrix develops a bimodal eigenvalue spectrum — *spectral segregation*. Uniform ridge shrinkage calibrated to the joint zoo preserves high-variance linear directions and kills lower-variance nonlinear ones, acting as an implicit linearity prior. I prove this formally and show that block-diagonal shrinkage respecting heterogeneous spectral structure is inadmissible-dominant whenever the killed directions are priced.
 
-- A 41‑factor zoo spanning six model classes and eight loss configurations on the Gu et al. (2020) panel (1957–2016) verifies every prediction of the theory
-- LGB factors are >94% orthogonal to Ridge counterparts (subspace angle 71.3°); the nonlinear premium (1.54%/month, NW *t* = 4.89) reflects convex market exposure and survives eight‑factor controls
-- Block‑diagonal shrinkage doubles the out‑of‑sample Sharpe ratio (0.24 vs 0.12); five‑fold cross‑validated HJ distances confirm the result
+- A 41-factor zoo spanning six model classes and eight loss configurations on the Gu et al. (2020) panel (1957-2016) verifies every prediction of the theory
+- LGB factors are >94% orthogonal to Ridge counterparts (subspace angle 71.3°); the nonlinear premium (1.54%/month, NW *t* = 4.89) reflects convex market exposure and survives eight-factor controls
+- Block-diagonal shrinkage doubles the out-of-sample Sharpe ratio (0.24 vs 0.12); five-fold cross-validated HJ distances confirm the result
 - A hierarchy of priors — model class, regularization, tail sensitivity, objective engineering — organizes how each modeling choice shapes the SDF
 
 *Working paper (2026)*
@@ -30,21 +44,21 @@ When a factor zoo mixes linear and nonlinear models, the covariance matrix devel
 
 Readings and lecture for Empirical Corporate Finance on the emerging sustainable finance literature. Surveyed the theoretical foundations and empirical frontiers of how externalities, heterogeneous investor preferences, and regulatory frictions interact with asset prices.
 
-- Covered the Starks (2023) "value vs values" framework: disentangling whether ESG affects returns through priced risk or non‑pecuniary investor demand
-- Reviewed Pedersen (2025) on sustainable finance as implicit carbon pricing — how residual externalities enter expected returns as a discount‑rate wedge when carbon taxes fall short of the social cost of carbon
+- Covered the Starks (2023) "value vs values" framework: disentangling whether ESG affects returns through priced risk or non-pecuniary investor demand
+- Reviewed Pedersen (2025) on sustainable finance as implicit carbon pricing — how residual externalities enter expected returns as a discount-rate wedge when carbon taxes fall short of the social cost of carbon
 - Examined Giglio et al. (2025) on nature and biodiversity loss as economic state variables and a research agenda for financial economics
 
 *Lecture (2026)*
 
 ---
 
-### Automating Black–Litterman Beliefs with Machine Learning
+### Automating Black-Litterman Beliefs with Machine Learning
 
-Replacing subjective investor views in Black–Litterman Portfolio Optimization with structured ML‑generated beliefs.
+Replacing subjective investor views in Black-Litterman Portfolio Optimization with structured ML-generated beliefs.
 
 - Links Bayesian portfolio theory with prediction without discarding economic intuition
 - Keeps the model transparent so you can see when the data is steering the ship
-- Early results show portfolios that beat naïve baselines without hiding risk
+- Early results show portfolios that beat naive baselines without hiding risk
 
 *Working paper (2024)*
 
@@ -52,7 +66,7 @@ Replacing subjective investor views in Black–Litterman Portfolio Optimization 
 
 ### Illiquidity, Volatility Smoothing, and Portfolio Risk
 
-Research at Harvard Business School with Profs Victoria Ivashina and Josh Lerner. Mean–variance and Black–Litterman simulations to estimate the fixed cost of illiquidity on risk premiums of alternative asset classes like private equity and real estate, in contrast with fixed income and public equity.
+Research at Harvard Business School with Profs Victoria Ivashina and Josh Lerner. Mean-variance and Black-Litterman simulations to estimate the fixed cost of illiquidity on risk premiums of alternative asset classes like private equity and real estate, in contrast with fixed income and public equity.
 
 ---
 

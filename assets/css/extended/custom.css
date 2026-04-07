@@ -1,0 +1,84 @@
+/* Project inline tags */
+.post-content code {
+    background: var(--accent-soft);
+    color: var(--secondary);
+    padding: 2px 7px;
+    border-radius: var(--radius-xs);
+    font-size: 0.82em;
+    font-family: var(--font-sans);
+    font-weight: 500;
+    border: 1px solid var(--border);
+}
+
+/* Breadcrumb styling */
+.breadcrumbs {
+    font-size: 0.85em;
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
+}
+
+.breadcrumbs a {
+    color: var(--secondary);
+}
+
+.breadcrumbs a:hover {
+    color: var(--primary);
+}
+
+/* Back to top button refinement */
+.top-link {
+    border: 1px solid var(--border);
+    background: var(--entry);
+}
+
+/* Blog post entry styling */
+.post-entry {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 1rem;
+    transition: border-color var(--transition);
+}
+
+.post-entry:hover {
+    border-color: var(--secondary);
+}
+
+/* Reading time and meta styling */
+.post-meta-items {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    flex-wrap: wrap;
+    color: var(--secondary);
+    font-size: 0.85em;
+}
+
+.meta-separator {
+    margin: 0 0.5em;
+    opacity: 0.5;
+}
+
+/* Tag list in post footer */
+.post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    list-style: none;
+    padding: 0;
+}
+
+.post-tags li a {
+    display: inline-block;
+    background: var(--accent-soft);
+    color: var(--secondary);
+    padding: 3px 10px;
+    border-radius: var(--radius-sm);
+    font-size: 0.8em;
+    border: 1px solid var(--border);
+    transition: all var(--transition);
+}
+
+.post-tags li a:hover {
+    border-color: var(--secondary);
+    color: var(--primary);
+}

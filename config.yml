@@ -22,31 +22,52 @@ menu:
         - name: Projects
           url: /projects/
           weight: 4
+        - name: Blog
+          url: /blog/
+          weight: 5
         - name: Questions
           url: /questions/
-          weight: 5
+          weight: 6
         - name: Contact
           url: /contact/
-          weight: 6
+          weight: 7
+        - name: Search
+          url: /search/
+          weight: 8
 
 params:
     description: "Financial Data Science | PhD @ UCLA Anderson | HBS | Booth | IIM-B | MS FinMath UChicago"
     author: AJ
+    # To enable Google Analytics, add your Measurement ID (G-XXXXXXXXXX) below.
+    # Get one at https://analytics.google.com → Admin → Data Streams → Web
     googleAnalyticsID: ""
+    keywords:
+        - financial data science
+        - machine learning
+        - asset pricing
+        - quantitative finance
+        - UCLA Anderson
+        - PhD finance
+        - empirical asset pricing
+        - factor models
+    images:
+        - /AJpicture.jpg
     DateFormat: "January 2006"
+    mainSections:
+        - blog
     defaultTheme: dark
     hideFooter: true
     disableThemeToggle: false
     ShowShareButtons: false
-    ShowReadingTime: false
+    ShowReadingTime: true
     disableSpecial1stPost: true
     disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: false
     ShowToc: false
-    disableScrollToTop: true
+    disableScrollToTop: false
     TocOpen: true
     ShowWordCount: false
     UseHugoToc: true
@@ -73,12 +94,15 @@ params:
             - name: Projects
               url: /projects/
               weight: 4
+            - name: Blog
+              url: /blog/
+              weight: 5
             - name: Questions
               url: /questions/
-              weight: 5
+              weight: 6
             - name: Contact
               url: /contact/
-              weight: 6
+              weight: 7
     socialIcons:
         - name: CV
           url: /AJ_CV_Feb26.pdf
@@ -99,6 +123,15 @@ params:
       text: "AJ"
       icon: "/favicon-16x16.png"
       iconHeight: 18
+
+taxonomies:
+    tag: tags
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
 
 markup:
     goldmark:
