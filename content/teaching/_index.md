@@ -4,14 +4,14 @@ aliases: /teaching
 description: "Courses and philosophy"
 ---
 
-I care deeply about **how technical ideas land**. If a student walks away intimidated, I've missed the point.
+I care about **how technical ideas land**. If a student walks away intimidated, I've missed the point.
 
 ---
 
-### Courses (TA at Chicago Booth)
+### TA, Chicago Booth
 
-- Financial Econometrics (BUSN 20820/41203)
-- Decoding FinTech (BUSN 41813)
+- **Financial Econometrics** (BUSN 20820/41203) — Prof. Jeffrey Russell
+- **Decoding FinTech** (BUSN 41813) — Prof. Dacheng Xiu
 
 ---
 

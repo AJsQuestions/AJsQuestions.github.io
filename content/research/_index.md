@@ -8,15 +8,15 @@ tags: ["asset-pricing", "machine-learning", "financial-econometrics"]
 ### Interests
 
 - Empirical Asset Pricing
-- Mathematical and Computational Finance
-- Financial Econometrics and Statistics
-- Machine Learning and Data Science
+- Machine Learning
+- High-Dimensional Econometrics
+- Financial Data Science
 
 ---
 
 ### Which Directions Pay? A Geometric Theory of Model Disagreement in Asset Pricing
 
-When ML models disagree about stock returns, alignment with the stochastic discount factor predicts which deviations carry useful information. The cosine of the angle between a model's deviation vector and the SDF explains 64% of cross-model variation in deviation quality — suggesting that model disagreement is geometrically structured, not noise. This reframes ensemble construction: instead of averaging blindly, weight models by how well their unique signals align with the pricing kernel.
+When ML models disagree about stock returns, alignment with the stochastic discount factor predicts which deviations carry useful information. The cosine of the angle between a model's deviation vector and the SDF explains 64% of cross-model variation in deviation quality — suggesting that model disagreement is geometrically structured, not noise.
 
 - Built on the Gu et al. (2020) / JKP panel spanning 1957-2024 with WRDS/CRSP/Compustat data
 - Trained neural networks, gradient boosting (XGBoost, LightGBM, CatBoost), and regularized linear models on UCLA's Hoffman2 GPU cluster
@@ -29,12 +29,11 @@ When ML models disagree about stock returns, alignment with the stochastic disco
 
 ### The Geometry of Virtuous Complexity: Spectral Segregation, Shrinkage, and the Pricing Kernel
 
-When a factor zoo mixes linear and nonlinear models, the covariance matrix develops a bimodal eigenvalue spectrum — *spectral segregation*. Uniform ridge shrinkage calibrated to the joint zoo preserves high-variance linear directions and kills lower-variance nonlinear ones, acting as an implicit linearity prior. I prove this formally and show that block-diagonal shrinkage respecting heterogeneous spectral structure is inadmissible-dominant whenever the killed directions are priced.
+When a factor zoo mixes linear and nonlinear models, the covariance matrix develops a bimodal eigenvalue spectrum — *spectral segregation*. Uniform ridge shrinkage calibrated to the joint zoo preserves high-variance linear directions and kills lower-variance nonlinear ones, acting as an implicit linearity prior.
 
 - A 41-factor zoo spanning six model classes and eight loss configurations on the Gu et al. (2020) panel (1957-2016) verifies every prediction of the theory
 - LGB factors are >94% orthogonal to Ridge counterparts (subspace angle 71.3°); the nonlinear premium (1.54%/month, NW *t* = 4.89) reflects convex market exposure and survives eight-factor controls
 - Block-diagonal shrinkage doubles the out-of-sample Sharpe ratio (0.24 vs 0.12); five-fold cross-validated HJ distances confirm the result
-- A hierarchy of priors — model class, regularization, tail sensitivity, objective engineering — organizes how each modeling choice shapes the SDF
 
 *Working paper (2026)*
 
@@ -42,11 +41,11 @@ When a factor zoo mixes linear and nonlinear models, the covariance matrix devel
 
 ### Sustainable Finance: ESG, Climate Risk, and Asset Pricing
 
-Readings and lecture for Empirical Corporate Finance on the emerging sustainable finance literature. Surveyed the theoretical foundations and empirical frontiers of how externalities, heterogeneous investor preferences, and regulatory frictions interact with asset prices.
+Surveyed the theoretical foundations and empirical frontiers of how externalities, heterogeneous investor preferences, and regulatory frictions interact with asset prices.
 
-- Covered the Starks (2023) "value vs values" framework: disentangling whether ESG affects returns through priced risk or non-pecuniary investor demand
-- Reviewed Pedersen (2025) on sustainable finance as implicit carbon pricing — how residual externalities enter expected returns as a discount-rate wedge when carbon taxes fall short of the social cost of carbon
-- Examined Giglio et al. (2025) on nature and biodiversity loss as economic state variables and a research agenda for financial economics
+- Starks (2023): disentangling whether ESG affects returns through priced risk or non-pecuniary demand
+- Pedersen (2025): sustainable finance as implicit carbon pricing — residual externalities as a discount-rate wedge
+- Giglio et al. (2025): biodiversity loss as economic state variables
 
 *Lecture (2026)*
 
@@ -54,40 +53,42 @@ Readings and lecture for Empirical Corporate Finance on the emerging sustainable
 
 ### Automating Black-Litterman Beliefs with Machine Learning
 
-Replacing subjective investor views in Black-Litterman Portfolio Optimization with structured ML-generated beliefs.
-
-- Links Bayesian portfolio theory with prediction without discarding economic intuition
-- Keeps the model transparent so you can see when the data is steering the ship
-- Early results show portfolios that beat naive baselines without hiding risk
+Replacing subjective investor views in Black-Litterman Portfolio Optimization with structured ML-generated beliefs. Links Bayesian portfolio theory with prediction without discarding economic intuition.
 
 *Working paper (2024)*
 
 ---
 
-### Illiquidity, Volatility Smoothing, and Portfolio Risk
+### Illiquidity & Expected Returns
 
-Research at Harvard Business School with Profs Victoria Ivashina and Josh Lerner. Mean-variance and Black-Litterman simulations to estimate the fixed cost of illiquidity on risk premiums of alternative asset classes like private equity and real estate, in contrast with fixed income and public equity.
-
----
-
-### Killer Acquisitions and Innovation in FinTech
-
-Research at Harvard Business School with Profs Victoria Ivashina and Josh Lerner. Synthetic control regressions to test the causal effect of M&A on innovation throughput for FinTech firms.
+Harvard Business School, with Profs. Victoria Ivashina and Josh Lerner. Analyzed how illiquidity, smoothing, and valuation practices affect measured expected returns using Mean-Variance and Black-Litterman frameworks across alternative asset classes.
 
 ---
 
-### ML for Empirical Asset Pricing
+### Return Attribution & Causality
 
-Research at Chicago Booth with Prof Dacheng Xiu. Applied machine learning to empirical pricing problems including real estate valuation (Zillow Zestimate) and credit default prediction (LendingClub).
+Harvard Business School, with Profs. Victoria Ivashina and Josh Lerner. Conducted return decompositions and applied synthetic control methods using large-scale firm-level panel data.
 
 ---
 
-### Ensemble Machine Learning for Time Series
+### Empirical Asset Pricing & ML
 
-Summer research at the Indian Statistical Institute with Prof Tanujit Chakraborty. Readings and experiments in ensemble and hybridized machine learning models for time series analysis.
+Booth School of Business, with Prof. Dacheng Xiu. Applied regularized and nonlinear ML methods to study pricing errors and latent factor structure in housing and consumer credit markets, separating systematic risk from idiosyncratic noise.
+
+---
+
+### High-Dimensional Credit Models
+
+Booth School of Business, with Prof. Dacheng Xiu. Built default prediction models using borrower- and loan-level characteristics; assessed stability, shrinkage behavior, and economic interpretability across specifications.
+
+---
+
+### Ensemble Machine Learning
+
+Indian Statistical Institute, with Prof. Tanujit Chakraborty. Focused study of ensemble and hybrid ML methods, emphasizing bias-variance tradeoffs.
 
 ---
 
 ### Real Estate Pricing and Presale Option Risk
 
-Research at IIM Bangalore with Prof Venkatesh Panchapagesan. Structural models of presale housing markets, quantifying risk premia, and how information asymmetry shapes urban real estate.
+IIM Bangalore, with Prof. Venkatesh Panchapagesan. Developed pricing models for presale real estate markets, estimating risk premia linked to project-level uncertainty and market cycles.
