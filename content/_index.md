@@ -8,7 +8,7 @@ I apply methods from data science and machine learning to solve problems in empi
 
 Interests: empirical asset pricing, financial econometrics, machine learning, prediction markets.
 
-Before the PhD I was a research assistant at Chicago Booth, Harvard Business School, and IIM Bangalore, and I interned at Cboe Global Markets, where I worked on VIX construction and fixed-income index data.
+Before the PhD I was a research assistant at Chicago Booth, Harvard Business School, and IIM Bangalore, and I interned at Cboe Global Markets.
 
 I have an MS in Financial Mathematics from the University of Chicago and a BS in Data Science from SP Jain School of Global Management.
 
