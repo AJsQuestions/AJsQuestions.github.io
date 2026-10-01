@@ -6,16 +6,15 @@ description: "Papers and research experience"
 
 I work on empirical asset pricing and machine learning, mostly on how to estimate large covariance matrices and factor models when there are many signals and not much data.
 
-### Paper
+### Working papers
 
-**Conditioning or Orientation? Shrinkage Targets for Characteristic-Managed Portfolios** (September 2026)
+**[Conditioning or Orientation? Shrinkage Targets for Characteristic-Managed Portfolios](/papers/Jena_Shrinkage_Targets_Sep2026.pdf)** (September 2026)
 
 When estimating the covariance of characteristic-managed portfolios, I try shrinking toward the covariance of the characteristics themselves. Out of sample, it has the highest Sharpe ratio of the 23 methods and benchmarks I compare, but it is statistically tied with a plain scaled-identity target. A decomposition shows that most of the gain comes from regularization in general, not from the information in the characteristics.
 
-### In progress
+**Returns on Presale Housing Markets in India** (2025)
 
-- How the disagreement between ML return-prediction models relates to the pricing kernel.
-- How ridge shrinkage treats linear and nonlinear factors when they are mixed together.
+Measures returns on housing bought before construction in Bangalore, NCR, Chennai, and Pune, using repeat sales. Written while I was a research associate at IIM Bangalore.
 
 ### Research assistant work
 
