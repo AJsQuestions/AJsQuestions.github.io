@@ -1,3 +1,7 @@
 .DS_Store
 older_versions/
 content.zip
+
+# Hugo build output (built fresh by the deploy workflow)
+public/
+resources/_gen/
