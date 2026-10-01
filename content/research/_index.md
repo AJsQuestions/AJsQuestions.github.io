@@ -10,7 +10,7 @@ description: "Papers, research positions, and teaching"
 
 - **[Conditioning or Orientation? Shrinkage Targets for Characteristic-Managed Portfolios](/papers/Jena_Shrinkage_Targets_Sep2026.pdf)** (September 2026). When estimating the covariance of characteristic-managed portfolios, I try shrinking toward the covariance of the characteristics themselves. Out of sample, it has the highest Sharpe ratio of the 23 methods and benchmarks I compare, but it is statistically tied with a plain scaled-identity target. A decomposition shows that most of the gain comes from regularization in general, not from the information in the characteristics.
   {{< tags "covariance shrinkage" "high-dimensional statistics" "portfolio optimization" "permutation tests" >}}
-- **Returns on Presale Housing Markets in India** (2025). Measures returns on housing bought before construction in Bangalore, NCR, Chennai, and Pune, using repeat sales. Written while I was a research associate at IIM Bangalore.
+- **Returns on Presale Housing Markets in India** (2025). Measures returns on housing bought before construction in Bangalore, NCR, Chennai, and Pune. Nominal returns are 2 to 5% a year, earned mostly right after launch, with no extra return for holding until completion. Written while I was a research associate at IIM Bangalore.
   {{< tags "real estate" "repeat-sales indices" "emerging markets" >}}
 
 ---
