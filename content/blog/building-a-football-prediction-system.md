@@ -1,7 +1,7 @@
 ---
 title: "What I Learned Building a Football Prediction System"
 date: 2026-02-15
-draft: false
+draft: true
 tags: ["machine-learning", "data-science", "projects"]
 description: "FootieM8 covers 25+ leagues across 30 seasons. The models work. The markets are harder."
 summary: "Building a research-grade match prediction system taught me more about model evaluation than any textbook."

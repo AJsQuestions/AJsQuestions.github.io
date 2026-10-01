@@ -1,7 +1,7 @@
 ---
 title: "What Regularization Actually Does to Your Portfolio"
 date: 2026-03-20
-draft: false
+draft: true
 tags: ["asset-pricing", "machine-learning", "teaching"]
 description: "Ridge regression doesn't just shrink coefficients — it encodes a belief about which directions in return space matter. Here's the geometric intuition."
 summary: "Ridge regression doesn't just shrink coefficients — it encodes a prior about which directions in return space are worth betting on."

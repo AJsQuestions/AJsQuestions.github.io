@@ -22,9 +22,6 @@ menu:
         - name: Projects
           url: /projects/
           weight: 4
-        - name: Blog
-          url: /blog/
-          weight: 5
         - name: Questions
           url: /questions/
           weight: 6
@@ -33,7 +30,7 @@ menu:
           weight: 7
 
 params:
-    description: "Empirical Asset Pricing, Machine Learning, and Financial Data Science — PhD in Finance @ UCLA Anderson"
+    description: "PhD student in Finance at UCLA Anderson"
     author: AJ
     # To enable Google Analytics, add your Measurement ID (G-XXXXXXXXXX) below.
     # Get one at https://analytics.google.com → Admin → Data Streams → Web
@@ -73,7 +70,7 @@ params:
     profileMode:
           enabled: true
           title: AJ
-          subtitle: "Empirical Asset Pricing, Machine Learning, and Financial Data Science — PhD in Finance @ UCLA Anderson"
+          subtitle: "PhD student in Finance at UCLA Anderson"
           imageUrl: "/AJpicture.jpg"
           imageWidth: 160
           imageHeight: 160
@@ -91,9 +88,6 @@ params:
             - name: Projects
               url: /projects/
               weight: 4
-            - name: Blog
-              url: /blog/
-              weight: 5
             - name: Questions
               url: /questions/
               weight: 6

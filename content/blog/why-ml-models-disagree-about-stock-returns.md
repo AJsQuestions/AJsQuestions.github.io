@@ -1,7 +1,7 @@
 ---
 title: "Why ML Models Disagree About Stock Returns"
 date: 2026-04-06
-draft: false
+draft: true
 tags: ["machine-learning", "asset-pricing", "research"]
 description: "When neural networks and gradient boosting look at the same stocks, they see different things. Here's why that disagreement is geometrically structured — and what it means for building better ensembles."
 summary: "Model disagreement in asset pricing isn't noise — it's geometry. A look at what happens when you point different ML architectures at the same return prediction problem."

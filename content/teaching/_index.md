@@ -1,26 +1,15 @@
 ---
 title: "Teaching"
 aliases: /teaching
-description: "Courses and philosophy"
+description: "Teaching"
 ---
 
-I care about **how technical ideas land**. If a student walks away intimidated, I've missed the point.
+### UCLA Anderson
 
----
+- Teaching assistant, Credit Markets (MGMTMFE 431), Julien Pénasse, Fall 2026
+- Teaching assistant, Venture Capital and Private Equity (MGMT 235), Fall 2026
 
-### TA, Chicago Booth
+### Chicago Booth
 
-- **Financial Econometrics** (BUSN 20820/41203) — Prof. Jeffrey Russell
-- **Decoding FinTech** (BUSN 41813) — Prof. Dacheng Xiu
-
----
-
-### Approach
-
-- Start with geometry
-- Add probability
-- Introduce notation last
-- Never pretend confusion is stupidity
-- Use code as a second language, not a crutch
-
-Good teaching doesn't simplify ideas; it makes complexity navigable and worth the effort.
+- Teaching assistant, Financial Econometrics (BUSN 20820/41203), Jeffrey Russell, Fall 2022
+- Teaching assistant, Decoding FinTech (BUSN 41813), Dacheng Xiu, 2022
