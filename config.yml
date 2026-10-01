@@ -1,5 +1,5 @@
 baseURL: "https://ajsquestions.github.io/" 
-title: AJ
+title: "Aryamaan (AJ) Jena"
 theme: PaperMod
 
 pagination:
@@ -22,7 +22,7 @@ menu:
 
 params:
     description: "PhD student in Finance at UCLA Anderson"
-    author: AJ
+    author: "Aryamaan (AJ) Jena"
     # To enable Google Analytics, add your Measurement ID (G-XXXXXXXXXX) below.
     # Get one at https://analytics.google.com → Admin → Data Streams → Web
     googleAnalyticsID: ""
@@ -60,7 +60,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: AJ
+          title: "Aryamaan (AJ) Jena"
           subtitle: "PhD student in Finance at UCLA Anderson"
           imageUrl: "/AJpicture.jpg"
           imageWidth: 160
