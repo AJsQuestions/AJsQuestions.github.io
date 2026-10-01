@@ -222,3 +222,11 @@
     border-color: var(--accent);
     color: var(--accent);
 }
+
+/* Land jump links just above the heading, clear of the sticky header */
+.post-content h2 {
+    scroll-margin-top: calc(var(--header-height) + 28px);
+}
+html {
+    scroll-behavior: smooth;
+}

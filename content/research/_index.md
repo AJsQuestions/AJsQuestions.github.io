@@ -4,7 +4,7 @@ aliases: ["/teaching/"]
 description: "Papers, research positions, and teaching"
 ---
 
-{{< jumplinks "Working Papers" "Research Assistant" "Teaching Assistant" >}}
+{{< jumplinks "Working Papers" "Research Assistantships" "Teaching Assistant" >}}
 
 ## Working Papers
 
@@ -15,7 +15,7 @@ description: "Papers, research positions, and teaching"
 
 ---
 
-## Research Assistant
+## Research Assistantships
 
 - **IIM Bangalore**, with Venkatesh Panchapagesan (2024 to 2025). Pricing presale real estate.
 - **Harvard Business School**, with Victoria Ivashina (2023 to 2024). Pension portfolio allocation and the cost of illiquidity in alternative assets.
