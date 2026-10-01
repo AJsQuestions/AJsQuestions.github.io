@@ -17,7 +17,7 @@ menu:
           url: /projects/
           weight: 2
         - name: CV
-          url: /AJ_CV_Oct26.pdf
+          url: https://ajsquestions.github.io/AJ_CV_Oct26.pdf
           weight: 3
 
 params:
@@ -75,7 +75,7 @@ params:
               weight: 2
     socialIcons:
         - name: CV
-          url: /AJ_CV_Oct26.pdf
+          url: https://ajsquestions.github.io/AJ_CV_Oct26.pdf
         - name: Email
           url: mailto:aryamaan.jena.phd@anderson.ucla.edu
         - name: LinkedIn

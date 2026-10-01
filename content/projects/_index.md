@@ -4,7 +4,7 @@ aliases: /projects
 description: "Side projects"
 ---
 
-### Prediction market price discovery
+### Prediction Market Price Discovery
 
 A study of the same events traded on Polymarket and Kalshi. I matched 759 contracts across the two platforms and measured how far their prices drift apart, how quickly the gap closes, and which platform moves first. In this sample, Polymarket leads most of the price discovery.
 
