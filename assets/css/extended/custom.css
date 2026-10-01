@@ -145,3 +145,39 @@
     text-decoration-color: var(--tertiary);
     text-underline-offset: 3px;
 }
+
+/* One accent color, used sparingly */
+:root {
+    --accent: rgb(110, 84, 190);
+    --accent-soft: rgba(110, 84, 190, 0.10);
+}
+.dark {
+    --accent: rgb(186, 166, 255);
+    --accent-soft: rgba(186, 166, 255, 0.12);
+}
+::selection {
+    background: var(--accent-soft);
+}
+.post-content a,
+.profile-bio a {
+    box-shadow: none;
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+.post-content a:hover,
+.profile-bio a:hover {
+    color: var(--accent);
+}
+.jump-links a {
+    text-decoration: none;
+}
+.jump-links a:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-soft);
+}
+#menu .active {
+    color: var(--accent);
+}
