@@ -60,7 +60,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: "AJ <small class=\"legal-name\">(Aryamaan Jena)</small>"
+          title: "AJ <small class=\"legal-name\">Aryamaan Jena</small>"
           subtitle: "PhD student in Finance at UCLA Anderson"
           imageUrl: "/AJpicture.jpg"
           imageWidth: 160
