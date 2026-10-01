@@ -181,3 +181,44 @@
 #menu .active {
     color: var(--accent);
 }
+
+/* Accent, a little more present */
+.post-content a,
+.profile-bio a {
+    color: var(--accent);
+}
+.post-content a:hover,
+.profile-bio a:hover {
+    text-decoration-thickness: 2px;
+}
+.jump-links a {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: var(--accent-soft);
+}
+.jump-links a:hover {
+    background: var(--accent);
+    color: var(--theme);
+}
+.post-content li::marker {
+    color: var(--accent);
+}
+.post-content h2 {
+    border-bottom-color: var(--accent);
+}
+/* Purple means clickable: links, buttons, and pills only */
+.post-content a,
+.profile-bio a,
+.jump-links a,
+.profile .buttons a,
+.social-icons a {
+    cursor: pointer;
+    transition: color 0.15s, background 0.15s, text-decoration-thickness 0.15s;
+}
+.social-icons a:hover svg {
+    color: var(--accent);
+}
+.profile .buttons a:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
