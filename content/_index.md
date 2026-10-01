@@ -10,4 +10,4 @@ Most recently, I have been working on covariance estimation and regularization i
 
 Before the PhD, I was a research assistant at Chicago Booth, Harvard Business School, and IIM Bangalore, and I interned at Cboe Global Markets.
 
-Outside of work, I co-founded The Existology Foundation, a mental health awareness nonprofit. Football is the thing I care about most outside research, and I study it far more seriously than it needs as the [Department of Unnecessary Football](/projects/#just-for-fun). I also write small programs around things I like, such as music.
+Outside of work, I co-founded The Existology Foundation, a mental health awareness nonprofit. Officially, football is my main interest outside research. Unofficially, research is my main interest outside football. I study it far more seriously than it needs as the [Department of Unnecessary Football](/projects/#just-for-fun). I also write small programs around things I like, such as music.
