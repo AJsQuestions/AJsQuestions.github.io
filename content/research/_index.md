@@ -4,7 +4,7 @@ aliases: ["/teaching/"]
 description: "Papers, research positions, and teaching"
 ---
 
-[Working Papers](#working-papers) · [Research Assistant](#research-assistant) · [Teaching Assistant](#teaching-assistant)
+{{< jumplinks "Working Papers" "Research Assistant" "Teaching Assistant" >}}
 
 ## Working Papers
 

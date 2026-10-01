@@ -93,3 +93,25 @@
 .profile-bio p {
     margin-bottom: 12px;
 }
+
+/* "On this page" links at the top of Research and Projects */
+.jump-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 4px 0 28px;
+}
+.jump-links a {
+    padding: 4px 14px;
+    border: 1px solid var(--tertiary);
+    border-radius: 999px;
+    font-size: 14px;
+    color: var(--secondary);
+    text-decoration: none;
+    box-shadow: none;
+    transition: border-color 0.15s, color 0.15s;
+}
+.jump-links a:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}

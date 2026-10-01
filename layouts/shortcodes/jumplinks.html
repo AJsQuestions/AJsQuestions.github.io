@@ -1,0 +1,5 @@
+<nav class="jump-links" aria-label="On this page">
+  {{- range .Params }}
+  <a href="#{{ . | anchorize }}">{{ . }}</a>
+  {{- end }}
+</nav>
