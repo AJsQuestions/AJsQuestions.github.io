@@ -10,24 +10,15 @@ enableRobotsTXT: true
 
 menu:
     main:
-        - name: About
-          url: /about/
-          weight: 1
         - name: Research
           url: /research/
-          weight: 2
-        - name: Teaching
-          url: /teaching/
-          weight: 3
+          weight: 1
         - name: Projects
           url: /projects/
-          weight: 4
-        - name: Questions
-          url: /questions/
-          weight: 6
-        - name: Contact
-          url: /contact/
-          weight: 7
+          weight: 2
+        - name: CV
+          url: /AJ_CV_Oct26.pdf
+          weight: 3
 
 params:
     description: "PhD student in Finance at UCLA Anderson"
@@ -76,24 +67,12 @@ params:
           imageHeight: 160
           imageTitle: AJ
           buttons:
-            - name: About
-              url: /about/
-              weight: 1
             - name: Research
               url: /research/
-              weight: 2
-            - name: Teaching
-              url: /teaching/
-              weight: 3
+              weight: 1
             - name: Projects
               url: /projects/
-              weight: 4
-            - name: Questions
-              url: /questions/
-              weight: 6
-            - name: Contact
-              url: /contact/
-              weight: 7
+              weight: 2
     socialIcons:
         - name: CV
           url: /AJ_CV_Oct26.pdf

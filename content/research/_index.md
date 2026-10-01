@@ -1,7 +1,7 @@
 ---
 title: "Research"
-aliases: /research
-description: "Papers and research experience"
+aliases: ["/teaching/"]
+description: "Papers, research positions, and teaching"
 ---
 
 I work on empirical asset pricing and machine learning, mostly on how to estimate large covariance matrices and factor models when there are many signals and not much data.
@@ -24,3 +24,17 @@ Measures returns on housing bought before construction in Bangalore, NCR, Chenna
 - **Harvard Business School**, with Victoria Ivashina and Josh Lerner (2023 to 2024). Illiquidity and measured returns in alternative assets; return attribution with firm-level panel data.
 - **Chicago Booth**, with Dacheng Xiu (2022 to 2023). ML methods for pricing errors in housing and consumer credit; default prediction models.
 - **Indian Statistical Institute**, with Tanujit Chakraborty (summer 2019). Ensemble ML methods.
+
+---
+
+## Teaching
+
+**UCLA Anderson**
+
+- Teaching assistant, Credit Markets (MGMTMFE 431), Julien Pénasse, Fall 2026
+- Teaching assistant, Venture Capital and Private Equity (MGMT 235), Mark Garmaise, Fall 2026
+
+**Chicago Booth**
+
+- Teaching assistant, Financial Econometrics (BUSN 20820/41203), Jeffrey Russell, Fall 2022
+- Teaching assistant, Decoding FinTech (BUSN 41813), Dacheng Xiu, Summer 2022
