@@ -79,7 +79,7 @@ params:
         - name: Email
           url: mailto:aryamaan.jena.phd@anderson.ucla.edu
         - name: LinkedIn
-          url: https://www.linkedin.com/in/aj-jena-13b738172/
+          url: https://www.linkedin.com/in/aj-jena/
         - name: GitHub
           url: https://github.com/ajsquestions
 
