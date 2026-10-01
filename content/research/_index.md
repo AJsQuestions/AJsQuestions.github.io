@@ -4,7 +4,7 @@ aliases: ["/teaching/"]
 description: "Papers, research positions, and teaching"
 ---
 
-{{< jumplinks "Working Papers" "Research Assistantships" "Teaching Assistant" >}}
+{{< jumplinks "Working Papers" "Research Assistantships" "Teaching Assistantships" >}}
 
 ## Working Papers
 
@@ -25,7 +25,7 @@ description: "Papers, research positions, and teaching"
 
 ---
 
-## Teaching Assistant
+## Teaching Assistantships
 
 **UCLA Anderson**
 
