@@ -115,3 +115,19 @@
     border-color: var(--primary);
     color: var(--primary);
 }
+
+/* Small tool/method tags under each project */
+.stack-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 6px 0 2px;
+}
+.stack-tags span {
+    padding: 1px 8px;
+    border-radius: 4px;
+    background: var(--code-bg);
+    color: var(--secondary);
+    font-size: 12px;
+    line-height: 1.7;
+}
