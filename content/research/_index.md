@@ -10,7 +10,7 @@ I work on empirical asset pricing and machine learning, mostly on how to estimat
 
 **Conditioning or Orientation? Shrinkage Targets for Characteristic-Managed Portfolios** (September 2026)
 
-When estimating the covariance of characteristic-managed portfolios, I try shrinking toward the covariance of the characteristics themselves. Out of sample, this target does well against 23 other methods and benchmarks. But a decomposition shows that most of the gain comes from regularization in general, not from the information in the characteristics. A plain scaled-identity target gets almost the same Sharpe ratio.
+When estimating the covariance of characteristic-managed portfolios, I try shrinking toward the covariance of the characteristics themselves. Out of sample, it has the highest Sharpe ratio of the 23 methods and benchmarks I compare, but it is statistically tied with a plain scaled-identity target. A decomposition shows that most of the gain comes from regularization in general, not from the information in the characteristics.
 
 ### In progress
 
