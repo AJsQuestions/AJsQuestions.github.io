@@ -302,3 +302,20 @@ html {
 .profile-bio {
     margin-top: 16px;
 }
+
+/* Softer accent, and a faint tint for (non-clickable) tags */
+:root {
+    --accent: rgb(108, 90, 170);
+    --accent-soft: rgba(108, 90, 170, 0.10);
+    --accent-faint: rgba(108, 90, 170, 0.09);
+}
+.dark {
+    --accent: rgb(165, 150, 215);
+    --accent-soft: rgba(165, 150, 215, 0.12);
+    --accent-faint: rgba(165, 150, 215, 0.11);
+}
+.stack-tags span {
+    background: var(--accent-faint);
+    color: var(--secondary);
+    cursor: default;
+}
