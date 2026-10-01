@@ -16,6 +16,13 @@ Black-Litterman portfolios usually need an investor to supply views on expected 
 
 A small tool for rebalancing an ETF portfolio using simple signals, with an optional Robinhood connection.
 
+### Department of Unnecessary Football
+
+Football analysis I do for fun.
+
+- **World Cup 2026 by club and league.** I rebuilt every player's minutes at the 2026 World Cup from match events (102 of 104 matches, 1,248 players) and broke down contributions by club, league, stage, and position. My reconstruction matches ESPN's published minutes for 1,237 players.
+- **FPL Lab.** A Fantasy Premier League system I am running live in 2026-27. A LightGBM model forecasts player points, and an integer program picks the squad and weekly transfers. In backtests, it has not beaten FPL's own forecasts.
+
 ### SpotiM8
 
 Pulls my Spotify library and listening history into pandas and Parquet, keeps yearly archive playlists updated, and has a small Streamlit dashboard.
