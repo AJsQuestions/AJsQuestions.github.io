@@ -4,9 +4,9 @@ description: "PhD student in Finance at UCLA Anderson"
 aliases: ["/about/", "/contact/", "/questions/"]
 ---
 
-I study how noisy financial information turns into prices, forecasts, and portfolio decisions, using methods from data science and machine learning. Most recently, I have been working on covariance estimation and regularization. I am also interested in prediction markets.
+I study how noisy financial information turns into prices, forecasts, and portfolio decisions, using methods from data science and machine learning. I am also interested in prediction markets.
 
-Latest working paper: [*Conditioning or Orientation? Shrinkage Targets for Characteristic-Managed Portfolios*](/papers/Jena_Shrinkage_Targets_Sep2026.pdf)
+Most recently, I have been working on covariance estimation and regularization in my working paper, [*Conditioning or Orientation? Shrinkage Targets for Characteristic-Managed Portfolios*](/papers/Jena_Shrinkage_Targets_Sep2026.pdf).
 
 Before the PhD, I was a research assistant at Chicago Booth, Harvard Business School, and IIM Bangalore, and I interned at Cboe Global Markets.
 
