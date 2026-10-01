@@ -8,8 +8,10 @@ I study how noisy financial information turns into prices, forecasts, and portfo
 
 Most recently, I have been working on covariance estimation and regularization in my working paper, [*Conditioning or Orientation? Shrinkage Targets for Characteristic-Managed Portfolios*](/papers/Jena_Shrinkage_Targets_Sep2026.pdf).
 
-Before the PhD, I was a research assistant at Chicago Booth, Harvard Business School, and IIM Bangalore, and I interned at Cboe Global Markets.
+Before the PhD, I was a research assistant at Chicago Booth (machine learning for Zillow home prices and LendingClub defaults), Harvard Business School (pension portfolios and illiquidity; acquisitions and FinTech innovation), and IIM Bangalore (presale housing returns).
 
-Officially, football is my main interest outside research. Unofficially, research is my main interest outside football. I study it far more seriously than it needs as the [Department of Unnecessary Football](/projects/#just-for-fun). Music is a close second, which is why most of my side projects end up being about one or the other.
+I have also interned at Cboe Global Markets (VIX quote filtering, SEC EDGAR data tools), Pareto Frontier Capital (crypto trading signals), Adaptive Investment Solutions (a hedging quote engine), and Pipli AI (OCR and named-entity recognition).
 
-Beyond that, the causes I care about most are mental health awareness, access to education, and financial literacy. In 2020, I co-founded The Existology Foundation in Mumbai, a nonprofit that works with students, parents, and educators to destigmatize mental illness in India through webinars, workshops, and resources vetted by mental health professionals.
+Officially, football is my main interest outside research. Unofficially, research is my main interest outside football. I study it far more seriously than it needs as the [Department of Unnecessary Football](/projects/#just-for-fun).
+
+I also care about mental health awareness, access to education, and financial literacy: in 2020, I co-founded The Existology Foundation, a Mumbai nonprofit that works with students, parents, and educators to destigmatize mental illness.
