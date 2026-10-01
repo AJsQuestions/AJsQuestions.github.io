@@ -4,6 +4,8 @@ aliases: /projects
 description: "Side projects"
 ---
 
+[Finance and Machine Learning](#finance-and-machine-learning) · [Just for Fun](#just-for-fun)
+
 ## Finance and Machine Learning
 
 ### Prediction Market Price Discovery
