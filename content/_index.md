@@ -14,4 +14,4 @@ I have also interned at Cboe Global Markets (VIX quote filtering, SEC EDGAR data
 
 Officially, football is my main interest outside research. Unofficially, research is my main interest outside football. I study it far more seriously than it needs as the [Department of Unnecessary Football](/projects/#just-for-fun).
 
-I also care about mental health awareness, access to education, and financial literacy: in 2020, I co-founded The Existology Foundation, a Mumbai nonprofit that works with students, parents, and educators to destigmatize mental illness.
+I also care about mental health awareness, access to education, and financial literacy. In 2020, I co-founded The Existology Foundation, a Mumbai nonprofit that works with students, parents, and educators to destigmatize mental illness.
