@@ -148,12 +148,12 @@
 
 /* One accent color, used sparingly */
 :root {
-    --accent: rgb(110, 84, 190);
-    --accent-soft: rgba(110, 84, 190, 0.10);
+    --accent: rgb(28, 110, 103);
+    --accent-soft: rgba(28, 110, 103, 0.10);
 }
 .dark {
-    --accent: rgb(186, 166, 255);
-    --accent-soft: rgba(186, 166, 255, 0.12);
+    --accent: rgb(95, 170, 160);
+    --accent-soft: rgba(95, 170, 160, 0.12);
 }
 ::selection {
     background: var(--accent-soft);
@@ -303,16 +303,16 @@ html {
     margin-top: 16px;
 }
 
-/* Softer accent, and a faint tint for (non-clickable) tags */
+/* Teal accent, and a faint tint for (non-clickable) tags */
 :root {
-    --accent: rgb(108, 90, 170);
-    --accent-soft: rgba(108, 90, 170, 0.10);
-    --accent-faint: rgba(108, 90, 170, 0.09);
+    --accent: rgb(28, 110, 103);
+    --accent-soft: rgba(28, 110, 103, 0.10);
+    --accent-faint: rgba(28, 110, 103, 0.08);
 }
 .dark {
-    --accent: rgb(165, 150, 215);
-    --accent-soft: rgba(165, 150, 215, 0.12);
-    --accent-faint: rgba(165, 150, 215, 0.11);
+    --accent: rgb(95, 170, 160);
+    --accent-soft: rgba(95, 170, 160, 0.12);
+    --accent-faint: rgba(95, 170, 160, 0.10);
 }
 .stack-tags span {
     background: var(--accent-faint);
