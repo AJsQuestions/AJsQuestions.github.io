@@ -131,3 +131,16 @@
     font-size: 12px;
     line-height: 1.7;
 }
+
+/* Full name in smaller type next to "AJ" on the home page */
+.profile h1 .legal-name {
+    font-size: 0.45em;
+    font-weight: 400;
+    color: var(--secondary);
+    vertical-align: middle;
+}
+.profile-bio a {
+    text-decoration: underline;
+    text-decoration-color: var(--tertiary);
+    text-underline-offset: 3px;
+}
