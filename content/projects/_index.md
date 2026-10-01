@@ -20,7 +20,7 @@ A small tool for rebalancing an ETF portfolio using simple signals, with an opti
 
 ---
 
-## Personal
+## Just for Fun
 
 ### Department of Unnecessary Football
 
