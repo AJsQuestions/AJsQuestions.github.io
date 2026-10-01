@@ -14,7 +14,8 @@ description: "Papers, research positions, and teaching"
 ## Research assistant positions
 
 - **IIM Bangalore**, with Venkatesh Panchapagesan (2024 to 2025). Pricing presale real estate.
-- **Harvard Business School**, with Victoria Ivashina and Josh Lerner (2023 to 2024). Illiquidity and measured returns in alternative assets; return attribution with firm-level panel data.
+- **Harvard Business School**, with Victoria Ivashina (2023 to 2024). Pension portfolio allocation and the cost of illiquidity in alternative assets.
+- **Harvard Business School**, with Josh Lerner (2023 to 2024). Innovation and acquisitions among financial firms, using patent data and synthetic control.
 - **Chicago Booth**, with Dacheng Xiu (2022 to 2023). ML methods for pricing errors in housing and consumer credit; default prediction models.
 - **Indian Statistical Institute**, with Tanujit Chakraborty (summer 2019). Ensemble ML methods.
 
