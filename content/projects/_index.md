@@ -4,9 +4,9 @@ aliases: /projects
 description: "Side projects"
 ---
 
-### FootieM8
+### Prediction market price discovery
 
-A football match prediction model for the top five European leagues, using data from 2018 onward. It combines Elo ratings, Poisson-style goal models, and LightGBM, and turns its probabilities into suggested stakes against bookmaker prices.
+A study of the same events traded on Polymarket and Kalshi. I matched 759 contracts across the two platforms and measured how far their prices drift apart, how quickly the gap closes, and which platform moves first. In this sample, Polymarket leads most of the price discovery.
 
 ### ETFm8
 
