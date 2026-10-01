@@ -12,4 +12,4 @@ Before the PhD, I was a research assistant at Chicago Booth, Harvard Business Sc
 
 Officially, football is my main interest outside research. Unofficially, research is my main interest outside football. I study it far more seriously than it needs as the [Department of Unnecessary Football](/projects/#just-for-fun). Music is a close second, which is why most of my side projects end up being about one or the other.
 
-Beyond that, the causes I care about most are mental health awareness, access to education, and financial literacy. In 2020, I co-founded The Existology Foundation in Mumbai, a nonprofit that works with students, parents, and educators to destigmatize mental illness in India through webinars, workshops, and shared resources.
+Beyond that, the causes I care about most are mental health awareness, access to education, and financial literacy. In 2020, I co-founded The Existology Foundation in Mumbai, a nonprofit that works with students, parents, and educators to destigmatize mental illness in India through webinars, workshops, and resources vetted by mental health professionals.

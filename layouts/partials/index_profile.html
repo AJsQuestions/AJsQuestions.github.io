@@ -1,6 +1,7 @@
 <div class="profile">
     {{- with site.Params.profileMode }}
     <div class="profile_inner">
+        <div class="profile-head">
         {{- if .imageUrl -}}
         {{- $img := "" }}
         {{- if not (urls.Parse .imageUrl).IsAbs }}
@@ -34,12 +35,9 @@
         </div>
         {{- end }}
         {{- end }}
-        <div class="profile-text">
+        <div class="profile-text profile-id">
             <h1>{{ .title | default site.Title | markdownify }}</h1>
             <p class="profile-subtitle">{{ .subtitle | markdownify }}</p>
-            {{- with $.Content }}
-            <div class="profile-bio">{{ . }}</div>
-            {{- end }}
             {{- partial "social_icons.html" site.Params.socialIcons -}}
 
             {{- with .buttons }}
@@ -62,6 +60,10 @@
             </div>
             {{- end }}
         </div>
+        </div>
+        {{- with $.Content }}
+        <div class="profile-bio">{{ . }}</div>
+        {{- end }}
     </div>
     {{- end}}
 </div>

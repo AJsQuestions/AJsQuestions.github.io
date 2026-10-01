@@ -63,8 +63,8 @@ params:
           title: "AJ <small class=\"legal-name\">Aryamaan Jena</small>"
           subtitle: "PhD student in Finance at UCLA Anderson"
           imageUrl: "/AJpicture.jpg"
-          imageWidth: 160
-          imageHeight: 160
+          imageWidth: 110
+          imageHeight: 110
           imageTitle: AJ
           buttons:
             - name: Research
