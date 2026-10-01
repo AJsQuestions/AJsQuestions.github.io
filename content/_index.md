@@ -4,7 +4,9 @@ description: "PhD student in Finance at UCLA Anderson"
 aliases: ["/about/", "/contact/", "/questions/"]
 ---
 
-I work on empirical asset pricing and machine learning.
+I apply methods from data science and machine learning to solve problems in empirical asset pricing. Most recently, I have been working on covariance estimation and regularization.
+
+Interests: empirical asset pricing, financial econometrics, machine learning, prediction markets.
 
 Before the PhD I was a research assistant at Chicago Booth, Harvard Business School, and IIM Bangalore, and I interned at Cboe Global Markets, where I worked on VIX construction and fixed-income index data.
 
